@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Movie Analysis</title>
+    <script src="https://d3js.org/d3.v6.min.js"></script>
+    <style>
+      body {
+          font-family: Arial, sans-serif;
+      }
+
+      .movie {
+          margin-bottom: 2em;
+      }
+
+      h2 {
+          margin: 0;
+      }
+
+      p {
+          margin: 0.5em 0;
+      }
+
+      svg {
+          display: block;
+          margin: 1em auto;
+      }
+    </style>
+</head>
+<body>
+    <h1>Movie Analysis</h1>
+    <label for="year">Select Year:</label>
+    <select id="year"></select>
+    <div id="movies"></div>
+
+    <script>
+        // Fetch unique years and populate the year filter
+        fetch('http://localhost:3000/years')
+          .then(response => response.json())
+          .then(years => {
+            years
+              .filter(year => year >= 1977 && year <= 2019)
+              .sort()
+              .forEach(year => {
+                d3.select('#year')
+                  .append('option')
+                  .text(year)
+                  .attr('value', year);
+              });
+
+            // Initial visualization
+            if (years.length) updateVisualization(years[0]);
+          });
+
+        // Add event listener to the year filter
+        d3.select('#year').on('change', function() {
+          const year = d3.select(this).property('value');
+          updateVisualization(year);
+        });
+
+        // Update visualization function
+        function updateVisualization(year) {
+          // Clear the current visualization
+          d3.select('#movies').html('');
+
+          // Fetch data and create the visualization
+          fetch(`http://localhost:3000/movies/${year}`)
+            .then(response => response.json())
+            .then(data => {
+              data.forEach(movie => {
+                d3.select('#movies')
+                  .append('div')
+                  .attr('class', 'movie')
+                  .text(movie.title);
+              });
+            });
+        }
+    </script>
+</body>
+</html>
+
+
+
+
+
