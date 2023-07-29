@@ -34,8 +34,8 @@ def movie_to_dict(movie: Movie):
         "plot": movie.plot,
         "domestic_gross": movie.domestic_gross,
         "worldwide_gross": movie.worldwide_gross,
-        "foreign_gross": movie.foreign_gross,
         "budget": movie.budget,
+        "foreign_gross": movie.foreign_gross
     }
 
 
