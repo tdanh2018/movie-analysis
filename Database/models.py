@@ -22,7 +22,9 @@ class Movie(Base):
     worldwide_gross = Column(Integer)
     year = Column(Integer)
     budget = Column(Integer)
-
+    @property
+    def foreign_gross(self):
+        return self.worldwide_gross - self.domestic_gross
 
 engine = create_engine("sqlite:///movies.db")
 Base.metadata.create_all(engine)

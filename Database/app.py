@@ -34,6 +34,7 @@ def movie_to_dict(movie: Movie):
         "plot": movie.plot,
         "domestic_gross": movie.domestic_gross,
         "worldwide_gross": movie.worldwide_gross,
+        "foreign_gross": movie.foreign_gross,
         "budget": movie.budget,
     }
 
@@ -86,6 +87,21 @@ def get_top_movies_domestic_gross():
     data = [movie_to_dict(movie) for movie in query.all()]
     return jsonify({"data": data})
 
+# API route to return data for the fourth visualization (Top 10 Movies Based on Foreign Gross) - new
+@app.route("/api/top_movies_foreign_gross")
+def get_top_movies_foreign_gross():
+    year = request.args.get("year")
+
+    query = query = db.query(Movie)
+    if year:
+        query = query.filter(Movie.year == int(year))
+
+    query = query.order_by(Movie.foreign_gross.desc()).limit(10)
+
+    data = [movie_to_dict(movie) for movie in query.all()]
+    return jsonify({"data": data})
+
+# end new
 
 @app.route("/api/top_rated_movies")
 def get_top_rated_movies():

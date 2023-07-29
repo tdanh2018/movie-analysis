@@ -96,6 +96,36 @@ function renderDomesticGrossChart(data, year = "") {
 
     Plotly.newPlot('domestic-gross-chart', [domesticGrossChart, budgetChart], domesticGrossLayout, { responsive: true });
 }
+// new plot foreign
+// Function to render the Top 10 Movies Based on Foreign Gross chart
+function renderForeignGrossChart(data, year = "") {
+    const foreignGrossChart = {
+        x: data.data.map(movie => movie.title),
+        y: data.data.map(movie => movie.foreign_gross),
+        type: 'bar',
+
+        name: 'Foreign Gross'
+    };
+
+    const budgetChart = {
+        x: data.data.map(movie => movie.title),
+        y: data.data.map(movie => movie.budget),
+        type: 'bar',
+
+        name: 'Budget'
+    };
+
+    const foreignGrossLayout = {
+        title: `Top 10 Movies ${year ? `In ${year}` : ""} Based on Foreign Gross and Budget ($)`,
+        xaxis: { title: 'Movie Title' },
+        yaxis: { title: 'Amount ($)' },
+        barmode: 'group'
+    };
+
+    Plotly.newPlot('foreign-gross-chart', [foreignGrossChart, budgetChart], foreignGrossLayout, { responsive: true });
+}
+
+// end new plot foreign
 function renderMoviesTable(data) {
     const tableBody = document.querySelector("#movies-table tbody");
     tableBody.innerHTML = "";
@@ -133,6 +163,13 @@ function handleDomesticGrossYearChange() {
         .then(data => renderDomesticGrossChart(data, year));
 }
 
+function handleForeignGrossYearChange() {
+    const selectedYear = document.getElementById("foreign-gross-year").value;
+    const year = selectedYear == "all" ? "" : selectedYear
+    fetchData(`/api/top_movies_foreign_gross?year=${year}`)
+        .then(data => renderForeignGrossChart(data, year));
+}
+
 function handleGenrePieYearChange() {
     const selectedYear = document.getElementById("genre-pie-year").value;
     const year = selectedYear == "all" ? "" : selectedYear
@@ -155,6 +192,7 @@ function handleMovieListGenreChange() {
 document.addEventListener('DOMContentLoaded', () => {
     fetchData('/api/top_movies_gross_profit').then(data => renderGrossProfitChart(data));
     fetchData('/api/top_movies_domestic_gross').then(data => renderDomesticGrossChart(data));
+    fetchData('/api/top_movies_foreign_gross').then(data => renderForeignGrossChart(data));
     fetchData('/api/gross_profit_by_genre').then(data => renderGenrePieChart(data));
     fetchData('/api/top_rated_movies').then(data => renderTopRatedMoviesChart(data));
     fetchData('/api/movies_by_genre').then(data => renderMoviesTable(data));
@@ -162,6 +200,7 @@ document.addEventListener('DOMContentLoaded', () => {
     // Add event handlers for select
     document.getElementById("gross-profit-year").addEventListener("change", handleGrossProfitYearChange);
     document.getElementById("domestic-gross-year").addEventListener("change", handleDomesticGrossYearChange);
+    document.getElementById("foreign-gross-year").addEventListener("change", handleForeignGrossYearChange);
     document.getElementById("genre-pie-year").addEventListener("change", handleGenrePieYearChange);
     document.getElementById("genre-select").addEventListener("change", handleMovieListGenreChange);
     document.getElementById("ratings-year").addEventListener("change", handleRatingsYearChange);

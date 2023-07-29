@@ -34,7 +34,18 @@
         </select>
         <div id="domestic-gross-chart"></div>
       </div>
-
+<!-- new -->
+      <div class="chart">
+        <label for="foreign-gross-year">Select Year:</label>
+        <select id="foreign-gross-year">
+          <option value="all">All Years</option>
+          {% for year in years %}
+          <option value="{{ year }}">{{ year }}</option>
+          {% endfor %}
+        </select>
+        <div id="foreign-gross-chart"></div>
+      </div>
+<!-- end new -->
       <div class="chart">
         <label for="genre-pie-year">Select Year:</label>
         <select id="genre-pie-year">
