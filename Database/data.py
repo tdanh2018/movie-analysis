@@ -80,7 +80,7 @@ def parse_movie(movie_data) -> dict:
         "plot": plot,
         "domestic_gross": domestic_gross,
         "worldwide_gross": worldwide_gross,
-        "year": movie_data["year"],
+        "year": int(movie_data["year"]),
         "budget": budget,
     }
 
@@ -105,6 +105,7 @@ if __name__ == "__main__":
 
     # Create a DataFrame from the list of movie data
     df = pd.DataFrame(movie_data_list)
+    df = df[df["year"] <= 2020]
 
     print(df.head())
 

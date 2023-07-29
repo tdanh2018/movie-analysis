@@ -18,6 +18,8 @@ genres = [
     "sci-fi",
     "thriller",
 ]
+
+
 def movie_to_dict(movie: Movie):
     return {
         "id": movie.id,
@@ -122,8 +124,9 @@ def get_movies_by_genre():
 @app.route("/")
 def index():
     # Query unique years from the movies table
-    years = db.query(func.distinct(Movie.year)).all()
+    years = db.query(func.distinct(Movie.year)).filter(Movie.year <= 2020).all()
     years = sorted([year[0] for year in years], reverse=True)
+    years = [year for year in years if int(year) <= 2020]
 
     return render_template("visualization.html", genres=genres, years=years)
 
