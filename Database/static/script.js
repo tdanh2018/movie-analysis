@@ -96,7 +96,6 @@ function renderDomesticGrossChart(data, year = "") {
 
     Plotly.newPlot('domestic-gross-chart', [domesticGrossChart, budgetChart], domesticGrossLayout, { responsive: true });
 }
-// new plot foreign
 // Function to render the Top 10 Movies Based on Foreign Gross chart
 function renderForeignGrossChart(data, year = "") {
     const foreignGrossChart = {
@@ -125,7 +124,6 @@ function renderForeignGrossChart(data, year = "") {
     Plotly.newPlot('foreign-gross-chart', [foreignGrossChart, budgetChart], foreignGrossLayout, { responsive: true });
 }
 
-// end new plot foreign
 function renderMoviesTable(data) {
     const tableBody = document.querySelector("#movies-table tbody");
     tableBody.innerHTML = "";
@@ -142,8 +140,10 @@ function renderMoviesTable(data) {
                 <td>${movie.imdb_rating}</td>
                 <td>${movie.imdb_rating_votes}</td>
                 <td>${movie.budget}</td>
-                <td>${movie.domestic_gross}</td>
                 <td>${movie.worldwide_gross}</td>
+                <td>${movie.domestic_gross}</td>
+                <td>${movie.foreign_gross}</td>
+                
             </tr>
         `;
         tableBody.innerHTML += row;
