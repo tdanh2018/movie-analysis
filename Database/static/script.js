@@ -26,6 +26,8 @@ function renderGrossProfitChart(data, year = "") {
         title: `Top 10 Movies ${year ? `In ${year}` : ""} Based on Worldwide Gross Profit and Budget ($)`,
         xaxis: { title: 'Movie Title' },
         yaxis: { title: 'Amount ($)' },
+        plot_bgcolor: 'rgba(0,0,0,0)',
+        paper_bgcolor: 'rgba(0,0,0,0)',
         barmode: 'group' // This will group the bars for Gross Profit and Budget side by side
     };
 
@@ -44,6 +46,8 @@ function renderGenrePieChart(data, year = "") {
 
     const genrePieLayout = {
         title: `Gross ${year ? `In ${year}` : ""} Profit Based on Genre($)`,
+        plot_bgcolor: 'rgba(0,0,0,0)',
+        paper_bgcolor: 'rgba(0,0,0,0)'
 
     };
 
@@ -64,6 +68,8 @@ function renderTopRatedMoviesChart(data, year = "") {
         title: `Top 10 Rated Movies ${year ? `In ${year}` : ""}`,
         xaxis: { title: 'Movie Title' },
         yaxis: { title: 'IMDb Rating' },
+        plot_bgcolor: 'rgba(0,0,0,0)',
+        paper_bgcolor: 'rgba(0,0,0,0)'
     };
 
     Plotly.newPlot('top-rated-movies-chart', [topRatedMoviesChart], topRatedMoviesLayout, { responsive: true });
@@ -91,6 +97,8 @@ function renderDomesticGrossChart(data, year = "") {
         title: `Top 10 Movies ${year ? `In ${year}` : ""} Based on Domestic Gross and Budget ($)`,
         xaxis: { title: 'Movie Title' },
         yaxis: { title: 'Amount ($)' },
+        plot_bgcolor: 'rgba(0,0,0,0)',
+        paper_bgcolor: 'rgba(0,0,0,0)',
         barmode: 'group'
     };
 
@@ -118,6 +126,8 @@ function renderForeignGrossChart(data, year = "") {
         title: `Top 10 Movies ${year ? `In ${year}` : ""} Based on Foreign Gross and Budget ($)`,
         xaxis: { title: 'Movie Title' },
         yaxis: { title: 'Amount ($)' },
+        plot_bgcolor: 'rgba(0,0,0,0)',
+        paper_bgcolor: 'rgba(0,0,0,0)',
         barmode: 'group'
     };
 
