@@ -2,10 +2,14 @@
 <html>
   <head>
     <title>Movie Data Visualizations</title>
+    <h1 style="text-align: center;">Movie Data Visualizations</h1>
     <script
       src="https://cdn.plot.ly/plotly-2.24.1.min.js"
       charset="utf-8"
     ></script>
+    <!-- new -->
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <!-- end new -->
     <link
       rel="stylesheet"
       href="{{ url_for('static', filename='style.css') }}"
@@ -86,6 +90,8 @@ body::after {
           {% endfor %}
         </select>
         <div class="chart" id="top-rated-movies-chart"></div>
+        <!-- <canvas id="top-rated-movies-chart"></canvas> -->
+        <!-- end new test -->
       </div>
 
       <div class="movie-details">

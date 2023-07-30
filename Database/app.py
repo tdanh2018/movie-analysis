@@ -103,12 +103,31 @@ def get_top_movies_foreign_gross():
 
 # end new
 
+# original
+# @app.route("/api/top_rated_movies")
+# def get_top_rated_movies():
+#     year = request.args.get("year")
+
+#     query = db.query(Movie)
+#     if year:
+#         query = query.filter(Movie.year == int(year))
+#     data = (
+#         query.order_by(
+#             Movie.imdb_rating.desc(),
+#         )
+#         .limit(10)
+#         .all()
+#     )
+#     data = [movie_to_dict(movie) for movie in data]
+#     return jsonify({"data": data})
+
+# new
 @app.route("/api/top_rated_movies")
 def get_top_rated_movies():
     year = request.args.get("year")
 
     query = db.query(Movie)
-    if year:
+    if year and year.lower() != "all":
         query = query.filter(Movie.year == int(year))
     data = (
         query.order_by(
@@ -120,6 +139,7 @@ def get_top_rated_movies():
     data = [movie_to_dict(movie) for movie in data]
     return jsonify({"data": data})
 
+# end new
 
 @app.route("/api/movies_by_genre")
 def get_movies_by_genre():
