@@ -87,7 +87,7 @@ def get_top_movies_domestic_gross():
     data = [movie_to_dict(movie) for movie in query.all()]
     return jsonify({"data": data})
 
-# API route to return data for the fourth visualization (Top 10 Movies Based on Foreign Gross) - new
+# API route to return data for the fourth visualization (Top 10 Movies Based on Foreign Gross)
 @app.route("/api/top_movies_foreign_gross")
 def get_top_movies_foreign_gross():
     year = request.args.get("year")
@@ -101,27 +101,7 @@ def get_top_movies_foreign_gross():
     data = [movie_to_dict(movie) for movie in query.all()]
     return jsonify({"data": data})
 
-# end new
-
-# original
-# @app.route("/api/top_rated_movies")
-# def get_top_rated_movies():
-#     year = request.args.get("year")
-
-#     query = db.query(Movie)
-#     if year:
-#         query = query.filter(Movie.year == int(year))
-#     data = (
-#         query.order_by(
-#             Movie.imdb_rating.desc(),
-#         )
-#         .limit(10)
-#         .all()
-#     )
-#     data = [movie_to_dict(movie) for movie in data]
-#     return jsonify({"data": data})
-
-# new
+# updated API route for top 10 rated movies
 @app.route("/api/top_rated_movies")
 def get_top_rated_movies():
     year = request.args.get("year")

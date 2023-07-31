@@ -12,14 +12,19 @@ function renderGrossProfitChart(data, year = "") {
         y: data.data.map(movie => movie.worldwide_gross),
         type: 'bar',
         name: 'Gross Profit',
-
+        marker: {
+            color: 'rgb(255, 105, 180)' // Vibrant pink
+        },
     };
 
     const budgetChart = {
         x: data.data.map(movie => movie.title),
         y: data.data.map(movie => movie.budget),
         type: 'bar',
-        name: 'Budget'
+        name: 'Budget',
+        marker: {
+            color: 'rgb(64, 224, 208)' // Turquoise blue
+        },
     };
 
     const grossProfitLayout = {
@@ -39,11 +44,13 @@ function renderGrossProfitChart(data, year = "") {
 
 // Function to render the Gross Profit Based on Genre pie chart
 function renderGenrePieChart(data, year = "") {
+    const sumLabels = data.data.map(row => `${row.sum.toLocaleString()} (${((row.sum / data.data.reduce((a, b) => a + (b["sum"] || 0), 0))*100).toFixed(2)}%)`);
     const genrePieChart = {
         values: data.data.map(row => row.sum),
         labels: data.data.map(row => row.genre),
         type: 'pie',
-        texttemplate: "%{label}:  (%{percent})",
+        hovertemplate: "%{label}<br>%{customdata}<extra></extra>",
+        customdata: sumLabels,
         textposition: "inside",
     };
 
@@ -56,34 +63,7 @@ function renderGenrePieChart(data, year = "") {
 
     Plotly.newPlot('genre-pie-chart', [genrePieChart], genrePieLayout, { responsive: true });
 }
-// original - delete when replaced
-// Function to render the Top 10 Rated Movies bar chart
-// function renderTopRatedMoviesChart(data, year = "") {
-//     const topRatedMoviesChart = {
-//         x: data.data.map(movie => movie.title),
-//         y: data.data.map(movie => movie.imdb_rating),
-//         type: 'bar',
-//         marker: {
-//             color: 'rgb(148, 103, 189)',
-//         },
-
-//     };
-
-//     const topRatedMoviesLayout = {
-//         title: `Top 10 Rated Movies ${year ? `In ${year}` : ""}`,
-//         xaxis: { title: '' },
-//         yaxis: { title: 'IMDb Rating' },
-//         plot_bgcolor: 'rgba(0,0,0,0)',
-//         paper_bgcolor: 'rgba(0,0,0,0)',
-//         margin: {
-//             b: 170
-//         }
-//     };
-
-//     Plotly.newPlot('top-rated-movies-chart', [topRatedMoviesChart], topRatedMoviesLayout, { responsive: true });
-// }
-
-// new
+// normalize values for the top 10 chart
 function normalizeValues(values, desiredMin, desiredMax) {
     const actualMin = Math.min(...values);
     const actualMax = Math.max(...values);
@@ -103,7 +83,7 @@ function normalizeValues(values, desiredMin, desiredMax) {
         ((value - actualMin) / (actualMax - actualMin)) * (desiredMax - desiredMin) + desiredMin
     );
 }
-
+// create the top 10 movies chart
 function renderTopRatedMoviesChart(data, year = "") {
     const worldwideGrosses = data.data.map(movie => parseFloat(movie.worldwide_gross));
     const normalizedSizes = normalizeValues(worldwideGrosses, 10, 50); 
@@ -113,17 +93,18 @@ function renderTopRatedMoviesChart(data, year = "") {
         y: data.data.map(movie => movie.imdb_rating),
         mode: 'markers',
         marker: {
-            color: 'rgb(148, 103, 189)',
+            color: worldwideGrosses,
+            colorscale: 'Bluered',
             size: normalizedSizes,
             sizemode: 'diameter',
         },
-        text: data.data.map(movie => `Title: ${movie.title}<br>Worldwide Gross: ${movie.worldwide_gross}`),
-        hovertemplate: '%{text}<br>Rating: %{y}<extra></extra>',
+        text: data.data.map(movie => `Title: ${movie.title}<br>Worldwide Gross: ${parseInt(movie.worldwide_gross).toLocaleString()}`),
+        hovertemplate: '%{text}<br>Rating: %{y:.2f}<extra></extra>',
         type: 'scatter'
     };
 
     const topRatedMoviesLayout = {
-        title: `Top 10 Rated Movies ${year ? `In ${year}` : ""}`,
+        title: `Top 10 Rated Movies & Earnings ${year ? `In ${year}` : ""}`,
         xaxis: { title: '' },
         yaxis: { title: 'IMDb Rating' },
         plot_bgcolor: 'rgba(0,0,0,0)',
@@ -136,25 +117,26 @@ function renderTopRatedMoviesChart(data, year = "") {
     Plotly.newPlot('top-rated-movies-chart', [topRatedMoviesChart], topRatedMoviesLayout, { responsive: true });
 }
 
-
-// end new
-
 // Function to render the Top 10 Movies Based on Domestic Gross chart
 function renderDomesticGrossChart(data, year = "") {
     const domesticGrossChart = {
         x: data.data.map(movie => movie.title),
         y: data.data.map(movie => movie.domestic_gross),
         type: 'bar',
-
-        name: 'Domestic Gross'
+        name: 'Domestic Gross',
+        marker: {
+            color: 'rgb(128, 128, 0)' // Olive Green
+        },
     };
 
     const budgetChart = {
         x: data.data.map(movie => movie.title),
         y: data.data.map(movie => movie.budget),
         type: 'bar',
-
-        name: 'Budget'
+        name: 'Budget',
+        marker: {
+            color: 'rgb(128, 0, 128)' // Deep Purple
+        },
     };
 
     const domesticGrossLayout = {
@@ -177,16 +159,20 @@ function renderForeignGrossChart(data, year = "") {
         x: data.data.map(movie => movie.title),
         y: data.data.map(movie => movie.foreign_gross),
         type: 'bar',
-
-        name: 'Foreign Gross'
+        name: 'Foreign Gross',
+        marker: {
+            color: 'rgb(0, 128, 128)' // Teal
+        },
     };
 
     const budgetChart = {
         x: data.data.map(movie => movie.title),
         y: data.data.map(movie => movie.budget),
         type: 'bar',
-
-        name: 'Budget'
+        name: 'Budget',
+        marker: {
+            color: 'rgb(255, 127, 80)' // Coral
+        },
     };
 
     const foreignGrossLayout = {
@@ -218,11 +204,11 @@ function renderMoviesTable(data) {
                 <td>${movie.genres}</td>
                 <td>${movie.content_rating}</td>
                 <td>${movie.imdb_rating}</td>
-                <td>${movie.imdb_rating_votes}</td>
-                <td>${movie.budget}</td>
-                <td>${movie.worldwide_gross}</td>
-                <td>${movie.domestic_gross}</td>
-                <td>${movie.foreign_gross}</td>
+                <td>${parseInt(movie.imdb_rating_votes).toLocaleString()}</td>
+                <td>${parseInt(movie.budget).toLocaleString()}</td>
+                <td>${parseInt(movie.worldwide_gross).toLocaleString()}</td>
+                <td>${parseInt(movie.domestic_gross).toLocaleString()}</td>
+                <td>${parseInt(movie.foreign_gross).toLocaleString()}</td>
                 
             </tr>
         `;
