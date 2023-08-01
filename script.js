@@ -1,21 +1,10 @@
 const API_KEY = 'k_ubtu0kka';
 
-async function fetchDataFromAPI() {
-  try {
-    const response = await fetch(`https://imdb-api.com/en/API/Top250Movies/${API_KEY}`);
-    const data = await response.json();
-    return data.items;
-  } catch (error) {
-    console.error('Error fetching data from IMDb API:', error);
-    throw error;
-  }
-}
-
 function sortMovies(movies, sortBy) {
   switch (sortBy) {
-    case 'imdbRatingDesc':
+    case 'imDbRatingDesc':
       return movies.sort((a, b) => b.imDbRating - a.imDbRating);
-    case 'imdbRatingAsc':
+    case 'imDbRatingAsc':
       return movies.sort((a, b) => a.imDbRating - b.imDbRating);
     case 'titleAsc':
       return movies.sort((a, b) => a.title.localeCompare(b.title));
@@ -50,97 +39,97 @@ function displayMovies(movies) {
     `;
 
     movieDiv.addEventListener('click', () => {
-      // Fetch and display awards and nominations for the clicked movie
-      displayAwardsAndNominations(movie.imDbId);
+      sessionStorage.setItem("scrollPosition", window.pageYOffset);
+      window.location.href = `new_page.html?imdbId=${movie.id}`;
     });
 
     moviesContainer.appendChild(movieDiv);
   });
+
+  if (sessionStorage.getItem("scrollPosition")) {
+    window.scrollTo(0, sessionStorage.getItem("scrollPosition"));
+  }
 }
 
-async function displayAwardsAndNominations(imdbId) {
+function processMovieData(csvData) {
+  const { data } = Papa.parse(csvData, { header: true, skipEmptyLines: true });
+
+  const moviesData = data.map(movie => {
+    const { id, image, title, description, imDbRating } = movie;
+    const year = description.match(/\((\d+)\)/)[1]; // Correctly extracting year
+    return {
+      id,
+      title,
+      year: year ? parseInt(year) : null,
+      imDbRating: imDbRating ? parseFloat(imDbRating) : null,
+      image
+    };
+  });
+
+  return moviesData;
+}
+
+async function fetchMovieData() {
   try {
-    const response = await fetch(`https://imdb-api.com/en/API/NameAwards/${API_KEY}/${imdbId}`);
-    const data = await response.json();
-
-    const awardsContainer = document.getElementById('awards-container');
-    awardsContainer.innerHTML = '';
-
-    if (data.items && data.items.length > 0) {
-      data.items.forEach((event) => {
-        const eventTitle = document.createElement('h4');
-        eventTitle.textContent = event.eventTitle;
-        awardsContainer.appendChild(eventTitle);
-
-        event.nameAwardEventDetails.forEach((detail) => {
-          const awardDiv = document.createElement('div');
-          awardDiv.classList.add('award-item');
-          awardDiv.innerHTML = `
-            <img class="award-image" src="${detail.image}" alt="${detail.title} Image">
-            <h5 class="award-title">${detail.title}</h5>
-            <p class="award-for">${detail.for}</p>
-            <p class="award-description">${detail.description}</p>
-          `;
-          awardsContainer.appendChild(awardDiv);
-        });
-      });
-    } else {
-      const noAwardsMessage = document.createElement('p');
-      noAwardsMessage.textContent = 'No awards and nominations found for this movie.';
-      awardsContainer.appendChild(noAwardsMessage);
-    }
+    const response = await fetch('movie_list.csv');
+    const data = await response.text();
+    const moviesData = processMovieData(data);
+    return moviesData;
   } catch (error) {
-    console.error('Error fetching awards and nominations:', error);
+    console.error('Error fetching movie data:', error);
+    throw error;
   }
 }
 
 async function main() {
   try {
-    const data = await fetchDataFromAPI();
-    let moviesData = data;
-
-    const awardFilter = document.getElementById('award-filter');
-    const popularityFilter = document.getElementById('popularity-filter');
+    const movieData = await fetchMovieData();
     const sortFilter = document.getElementById('sort-filter');
 
-    function filterAndSortMovies() {
-      const selectedAward = awardFilter.value;
-      const selectedPopularity = popularityFilter.value;
-      const selectedSort = sortFilter.value;
-
-      let filteredMovies = data;
-
-      if (selectedAward !== 'all') {
-        filteredMovies = filteredMovies.filter((movie) => {
-          if (selectedAward === 'yes') {
-            return movie.awards !== 'N/A';
-          } else if (selectedAward === 'no') {
-            return movie.awards === 'N/A';
-          }
-        });
-      }
-
-      if (selectedPopularity !== 'all') {
-        filteredMovies = filteredMovies.filter((movie) => {
-          if (selectedPopularity === 'high') {
-            return movie.imDbRating >= 8.0;
-          } else if (selectedPopularity === 'medium') {
-            return movie.imDbRating >= 7.0 && movie.imDbRating < 8.0;
-          } else if (selectedPopularity === 'low') {
-            return movie.imDbRating < 7.0;
-          }
-        });
-      }
-
-      moviesData = sortMovies(filteredMovies, selectedSort);
-      displayMovies(moviesData);
+    if (sessionStorage.getItem("selectedSort")) {
+      sortFilter.value = sessionStorage.getItem("selectedSort");
     }
 
-    awardFilter.addEventListener('change', filterAndSortMovies);
-    popularityFilter.addEventListener('change', filterAndSortMovies);
+    function filterAndSortMovies() {
+      const selectedSort = sortFilter.value;
+      sessionStorage.setItem("selectedSort", selectedSort);
+      const sortedMoviesData = sortMovies(movieData.slice(), selectedSort);
+      displayMovies(sortedMoviesData);
+    }
+
     sortFilter.addEventListener('change', filterAndSortMovies);
 
-    displayMovies(moviesData);
+    if (sessionStorage.getItem("selectedSort")) {
+      filterAndSortMovies();
+    } else {
+      displayMovies(movieData);
+    }
+
+    // Scroll to top button
+    const scrollToTopButton = document.createElement('button');
+    scrollToTopButton.textContent = 'Return to Top';
+    scrollToTopButton.classList.add('return-button');
+    scrollToTopButton.addEventListener('click', () => {
+      window.scrollTo({
+        top: 0,
+        behavior: 'smooth',
+      });
+    });
+
+    const returnButtonContainer = document.createElement('div');
+    returnButtonContainer.classList.add('return-button-container');
+    returnButtonContainer.appendChild(scrollToTopButton);
+
+    document.body.appendChild(returnButtonContainer);
+
+    window.addEventListener('scroll', () => {
+      if (window.scrollY > 300) {
+        returnButtonContainer.style.display = 'block';
+      } else {
+        returnButtonContainer.style.display = 'none';
+      }
+    });
+
   } catch (error) {
     console.error('Error in the main process:', error);
   }

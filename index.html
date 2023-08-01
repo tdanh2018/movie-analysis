@@ -9,25 +9,10 @@
 <body>
   <h1>Top 250 Movies</h1>
   <div class="filter-container">
-    <label for="award-filter">Filter by Awards:</label>
-    <select id="award-filter">
-      <option value="all">All</option>
-      <option value="yes">With Awards</option>
-      <option value="no">Without Awards</option>
-    </select>
-
-    <label for="popularity-filter">Filter by Popularity:</label>
-    <select id="popularity-filter">
-      <option value="all">All</option>
-      <option value="high">High Popularity</option>
-      <option value="medium">Medium Popularity</option>
-      <option value="low">Low Popularity</option>
-    </select>
-
     <label for="sort-filter">Sort By:</label>
     <select id="sort-filter">
-      <option value="imdbRatingDesc">Rating (Greatest to Least)</option>
-      <option value="imdbRatingAsc">Rating (Least to Greatest)</option>
+      <option value="imDbRatingDesc">Rating (Greatest to Least)</option>
+      <option value="imDbRatingAsc">Rating (Least to Greatest)</option>
       <option value="titleAsc">Title (A-Z)</option>
       <option value="titleDesc">Title (Z-A)</option>
       <option value="yearDesc">Release Year (Most Recent First)</option>
@@ -36,7 +21,7 @@
   </div>
 
   <div id="movies-container"></div>
-
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/PapaParse/5.1.0/papaparse.min.js"></script>
   <script src="script.js"></script>
 </body>
 </html>
