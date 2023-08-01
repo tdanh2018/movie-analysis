@@ -1,0 +1,5389 @@
+{
+  "name": "Top 250 Movies",
+  "children": [
+    {
+    "name": "Oppenheimer",
+    "children": [
+      {"name": "Year","value": "2023"},
+      {"name": "Genres","value": "Biography, Drama, History"},
+      {"name": "Content Rating","value": "R"},
+      {"name": "imDb Rating","value": "8.7"},
+      {"name": "Stars","value": "Christopher Nolan, Cillian Murphy, Emily Blunt, Matt Damon, Robert Downey Jr."}
+    ]
+  },
+  {
+    "name": "Spider-Man: Across the Spider-Verse",
+    "children": [
+      {
+        "name": "Year",
+        "value": "2023"
+      },
+      {
+        "name": "Genres",
+        "value": "Animation, Action, Adventure"
+      },
+      {
+        "name": "Content Rating",
+        "value": "PG"
+      },
+      {
+        "name": "imDb Rating",
+        "value": "8.9"
+      },
+      {
+        "name": "Stars",
+        "value": "Joaquim Dos Santos, Kemp Powers, Justin K. Thompson, Shameik Moore, Hailee Steinfeld, Brian Tyree Henry, Luna Lauren Velez"
+      }
+    ]
+  },
+  {
+    "name": "Interstellar",
+    "children": [
+      {
+        "name": "Year",
+        "value": "2014"
+      },
+      {
+        "name": "Genres",
+        "value": "Adventure, Drama, Sci-Fi"
+      },
+      {
+        "name": "Content Rating",
+        "value": "PG-13"
+      },
+      {
+        "name": "imDb Rating",
+        "value": "8.7"
+      },
+      {
+        "name": "Stars",
+        "value": "Christopher Nolan, Matthew McConaughey, Anne Hathaway, Jessica Chastain, Mackenzie Foy"
+      }
+    ]
+  },
+  {
+    "name": "The Dark Knight",
+    "children": [
+      {
+        "name": "Year",
+        "value": "(2008)"
+      },
+      {
+        "name": "Genres",
+        "value": "Action, Crime, Drama"
+      },
+      {
+        "name": "Content Rating",
+        "value": "PG-13"
+      },
+      {
+        "name": "imDb Rating",
+        "value": "9.0"
+      },
+      {
+        "name": "Stars",
+        "value": "Christopher Nolan, Christian Bale, Heath Ledger, Aaron Eckhart, Michael Caine"
+      }
+    ]
+  },
+  {
+    "name": "Inception",
+    "children": [
+      {
+        "name": "Year",
+        "value": "(2010)"
+      },
+      {
+        "name": "Genres",
+        "value": "Action, Adventure, Sci-Fi"
+      },
+      {
+        "name": "Content Rating",
+        "value": "PG-13"
+      },
+      {
+        "name": "imDb Rating",
+        "value": "8.8"
+      },
+      {
+        "name": "Stars",
+        "value": "Christopher Nolan, Leonardo DiCaprio, Joseph Gordon-Levitt, Elliot Page, Ken Watanabe"
+      }
+    ]
+  },
+  {
+    "name": "Top Gun: Maverick",
+    "children": [
+      {
+        "name": "Year",
+        "value": "(2022)"
+      },
+      {
+        "name": "Genres",
+        "value": "Action, Drama"
+      },
+      {
+        "name": "Content Rating",
+        "value": "PG-13"
+      },
+      {
+        "name": "imDb Rating",
+        "value": "8.3"
+      },
+      {
+        "name": "Stars",
+        "value": "Joseph Kosinski, Tom Cruise, Jennifer Connelly, Miles Teller, Val Kilmer"
+      }
+    ]
+  },
+  {
+    "name": "The Shawshank Redemption",
+    "children": [
+      {
+        "name": "Year",
+        "value": "(1994)"
+      },
+      {
+        "name": "Genres",
+        "value": "Drama"
+      },
+      {
+        "name": "Content Rating",
+        "value": "R"
+      },
+      {
+        "name": "imDb Rating",
+        "value": "9.3"
+      },
+      {
+        "name": "Stars",
+        "value": "Frank Darabont, Tim Robbins, Morgan Freeman, Bob Gunton, William Sadler"
+      }
+    ]
+  },
+  {
+    "name": "The Wolf of Wall Street",
+    "children": [
+      {
+        "name": "Year",
+        "value": "(2013)"
+      },
+      {
+        "name": "Genres",
+        "value": "Biography, Comedy, Crime"
+      },
+      {
+        "name": "Content Rating",
+        "value": "R"
+      },
+      {
+        "name": "imDb Rating",
+        "value": "8.2"
+      },
+      {
+        "name": "Stars",
+        "value": "Martin Scorsese, Leonardo DiCaprio, Jonah Hill, Margot Robbie, Matthew McConaughey"
+      }
+    ]
+  },
+  {
+    "name": "The Prestige",
+    "children": [
+      {
+        "name": "Year",
+        "value": "(2006)"
+      },
+      {
+        "name": "Genres",
+        "value": "Drama, Mystery, Sci-Fi"
+      },
+      {
+        "name": "Content Rating",
+        "value": "PG-13"
+      },
+      {
+        "name": "imDb Rating",
+        "value": "8.5"
+      },
+      {
+        "name": "Stars",
+        "value": "Christopher Nolan, Christian Bale, Hugh Jackman, Scarlett Johansson, Michael Caine"
+      }
+    ]
+  },
+  {
+    "name": "Raiders of the Lost Ark",
+    "children": [
+      {
+        "name": "Year",
+        "value": "(1981)"
+      },
+      {
+        "name": "Genres",
+        "value": "Action, Adventure"
+      },
+      {
+        "name": "Content Rating",
+        "value": "PG"
+      },
+      {
+        "name": "imDb Rating",
+        "value": "8.4"
+      },
+      {
+        "name": "Stars",
+        "value": "Steven Spielberg, Harrison Ford, Karen Allen, Paul Freeman, John Rhys-Davies"
+      }
+    ]
+  },
+  {
+    "name": "The Godfather",
+    "children": [
+      {
+        "name": "Year",
+        "value": "(1972)"
+      },
+      {
+        "name": "Genres",
+        "value": "Crime, Drama"
+      },
+      {
+        "name": "Content Rating",
+        "value": "R"
+      },
+      {
+        "name": "imDb Rating",
+        "value": "9.2"
+      },
+      {
+        "name": "Stars",
+        "value": "Francis Ford Coppola, Marlon Brando, Al Pacino, James Caan, Diane Keaton"
+      }
+    ]
+  },
+  {
+    "name": "Pulp Fiction",
+    "children": [
+      {
+        "name": "Year",
+        "value": "(1994)"
+      },
+      {
+        "name": "Genres",
+        "value": "Crime, Drama"
+      },
+      {
+        "name": "Content Rating",
+        "value": "R"
+      },
+      {
+        "name": "imDb Rating",
+        "value": "8.9"
+      },
+      {
+        "name": "Stars",
+        "value": "Quentin Tarantino, John Travolta, Uma Thurman, Samuel L. Jackson, Bruce Willis"
+      }
+    ]
+  },
+  {
+    "name": "Spider-Man: Into the Spider-Verse",
+    "children": [
+      {
+        "name": "Year",
+        "value": "(2018)"
+      },
+      {
+        "name": "Genres",
+        "value": "Animation, Action, Adventure"
+      },
+      {
+        "name": "Content Rating",
+        "value": "PG"
+      },
+      {
+        "name": "imDb Rating",
+        "value": "8.4"
+      },
+      {
+        "name": "Stars",
+        "value": "Bob Persichetti, Peter Ramsey, Rodney Rothman, Shameik Moore, Jake Johnson, Hailee Steinfeld, Mahershala Ali"
+      }
+    ]
+  },
+  {
+    "name": "Memento",
+    "children": [
+      {
+        "name": "Year",
+        "value": "(2000)"
+      },
+      {
+        "name": "Genres",
+        "value": "Mystery, Thriller"
+      },
+      {
+        "name": "Content Rating",
+        "value": "R"
+      },
+      {
+        "name": "imDb Rating",
+        "value": "8.4"
+      },
+      {
+        "name": "Stars",
+        "value": "Christopher Nolan, Guy Pearce, Carrie-Anne Moss, Joe Pantoliano, Mark Boone Junior"
+      }
+    ]
+  },
+  {
+    "name": "Jaws",
+    "children": [
+      {
+        "name": "Year",
+        "value": "(1975)"
+      },
+      {
+        "name": "Genres",
+        "value": "Adventure, Mystery, Thriller"
+      },
+      {
+        "name": "Content Rating",
+        "value": "PG"
+      },
+      {
+        "name": "imDb Rating",
+        "value": "8.1"
+      },
+      {
+        "name": "Stars",
+        "value": "Steven Spielberg, Roy Scheider, Robert Shaw, Richard Dreyfuss, Lorraine Gary"
+      }
+    ]
+  },
+  {
+    "name": "Indiana Jones and the Last Crusade",
+    "children": [
+      {
+        "name": "Year",
+        "value": "(1989)"
+      },
+      {
+        "name": "Genres",
+        "value": "Action, Adventure"
+      },
+      {
+        "name": "Content Rating",
+        "value": "PG-13"
+      },
+      {
+        "name": "imDb Rating",
+        "value": "8.2"
+      },
+      {
+        "name": "Stars",
+        "value": "Steven Spielberg, Harrison Ford, Sean Connery, Alison Doody, Denholm Elliott"
+      }
+    ]
+  },
+  {
+    "name": "The Dark Knight Rises",
+    "children": [
+      {
+        "name": "Year",
+        "value": "(2012)"
+      },
+      {
+        "name": "Genres",
+        "value": "Action, Drama, Thriller"
+      },
+      {
+        "name": "Content Rating",
+        "value": "PG-13"
+      },
+      {
+        "name": "imDb Rating",
+        "value": "8.4"
+      },
+      {
+        "name": "Stars",
+        "value": "Christopher Nolan, Christian Bale, Tom Hardy, Anne Hathaway, Gary Oldman"
+      }
+    ]
+  },
+  {
+    "name": "Jurassic Park",
+    "children": [
+      {
+        "name": "Year",
+        "value": "(1993)"
+      },
+      {
+        "name": "Genres",
+        "value": "Action, Adventure, Sci-Fi"
+      },
+      {
+        "name": "Content Rating",
+        "value": "PG-13"
+      },
+      {
+        "name": "imDb Rating",
+        "value": "8.2"
+      },
+      {
+        "name": "Stars",
+        "value": "Steven Spielberg, Sam Neill, Laura Dern, Jeff Goldblum, Richard Attenborough"
+      }
+    ]
+  },
+  {
+    "name": "Inglourious Basterds",
+    "children": [
+      {
+        "name": "Year",
+        "value": "(2009)"
+      },
+      {
+        "name": "Genres",
+        "value": "Adventure, Drama, War"
+      },
+      {
+        "name": "Content Rating",
+        "value": "R"
+      },
+      {
+        "name": "imDb Rating",
+        "value": "8.3"
+      },
+      {
+        "name": "Stars",
+        "value": "Quentin Tarantino, Brad Pitt, Diane Kruger, Eli Roth, Malanie Laurent"
+      }
+    ]
+  },
+  {
+    "name": "Batman Begins",
+    "children": [
+      {
+        "name": "Year",
+        "value": "(2005)"
+      },
+      {
+        "name": "Genres",
+        "value": "Action, Crime, Drama"
+      },
+      {
+        "name": "Content Rating",
+        "value": "PG-13"
+      },
+      {
+        "name": "imDb Rating",
+        "value": "8.2"
+      },
+      {
+        "name": "Stars",
+        "value": "Christopher Nolan, Christian Bale, Michael Caine, Ken Watanabe, Liam Neeson"
+      }
+    ]
+  },
+  {
+    "name": "Spider-Man: No Way Home",
+    "children": [
+      {
+        "name": "Year",
+        "value": "(2021)"
+      },
+      {
+        "name": "Genres",
+        "value": "Action, Adventure, Fantasy"
+      },
+      {
+        "name": "Content Rating",
+        "value": "PG-13"
+      },
+      {
+        "name": "imDb Rating",
+        "value": "8.2"
+      },
+      {
+        "name": "Stars",
+        "value": "Jon Watts, Tom Holland, Zendaya, Benedict Cumberbatch, Jacob Batalon"
+      }
+    ]
+  },
+  {
+    "name": "The Departed",
+    "children": [
+      {
+        "name": "Year",
+        "value": "(2006)"
+      },
+      {
+        "name": "Genres",
+        "value": "Crime, Drama, Thriller"
+      },
+      {
+        "name": "Content Rating",
+        "value": "R"
+      },
+      {
+        "name": "imDb Rating",
+        "value": "8.5"
+      },
+      {
+        "name": "Stars",
+        "value": "Martin Scorsese, Leonardo DiCaprio, Matt Damon, Jack Nicholson, Mark Wahlberg"
+      }
+    ]
+  },
+  {
+    "name": "Heat",
+    "children": [
+      {
+        "name": "Year",
+        "value": "(1995)"
+      },
+      {
+        "name": "Genres",
+        "value": "Action, Crime, Drama"
+      },
+      {
+        "name": "Content Rating",
+        "value": "R"
+      },
+      {
+        "name": "imDb Rating",
+        "value": "8.3"
+      },
+      {
+        "name": "Stars",
+        "value": "Michael Mann, Al Pacino, Robert De Niro, Val Kilmer, Jon Voight"
+      }
+    ]
+  },
+  {
+    "name": "Prisoners",
+    "children": [
+      {
+        "name": "Year",
+        "value": "(2013)"
+      },
+      {
+        "name": "Genres",
+        "value": "Crime, Drama, Mystery"
+      },
+      {
+        "name": "Content Rating",
+        "value": "R"
+      },
+      {
+        "name": "imDb Rating",
+        "value": "8.1"
+      },
+      {
+        "name": "Stars",
+        "value": "Denis Villeneuve, Hugh Jackman, Jake Gyllenhaal, Viola Davis, Melissa Leo"
+      }
+    ]
+  },
+   {
+    "name": "No Country for Old Men",
+    "children": [
+      {
+        "name": "Year",
+        "value": "(2007)"
+      },
+      {
+        "name": "Genres",
+        "value": "Crime, Drama, Thriller"
+      },
+      {
+        "name": "Content Rating",
+        "value": "R"
+      },
+      {
+        "name": "imDb Rating",
+        "value": "8.2"
+      },
+      {
+        "name": "Stars",
+        "value": "Ethan Coen, Joel Coen, Tommy Lee Jones, Javier Bardem, Josh Brolin, Woody Harrelson"
+      }
+    ]
+  },
+  {
+    "name": "The Lord of the Rings: The Fellowship of the Ring",
+    "children": [
+      {
+        "name": "Year",
+        "value": "(2001)"
+      },
+      {
+        "name": "Genres",
+        "value": "Action, Adventure, Drama"
+      },
+      {
+        "name": "Content Rating",
+        "value": "PG-13"
+      },
+      {
+        "name": "imDb Rating",
+        "value": "8.8"
+      },
+      {
+        "name": "Stars",
+        "value": "Peter Jackson, Elijah Wood, Ian McKellen, Orlando Bloom, Sean Bean"
+      }
+    ]
+  },
+  {
+    "name": "Fight Club",
+    "children": [
+      {
+        "name": "Year",
+        "value": "(1999)"
+      },
+      {
+        "name": "Genres",
+        "value": "Drama"
+      },
+      {
+        "name": "Content Rating",
+        "value": "R"
+      },
+      {
+        "name": "imDb Rating",
+        "value": "8.8"
+      },
+      {
+        "name": "Stars",
+        "value": "David Fincher, Brad Pitt, Edward Norton, Meat Loaf, Zach Grenier"
+      }
+    ]
+  },
+  {
+    "name": "Avengers: Endgame",
+    "children": [
+      {
+        "name": "Year",
+        "value": "(2019)"
+      },
+      {
+        "name": "Genres",
+        "value": "Action, Adventure, Drama"
+      },
+      {
+        "name": "Content Rating",
+        "value": "PG-13"
+      },
+      {
+        "name": "imDb Rating",
+        "value": "8.4"
+      },
+      {
+        "name": "Stars",
+        "value": "Anthony Russo, Joe Russo, Robert Downey Jr., Chris Evans, Mark Ruffalo, Chris Hemsworth"
+      }
+    ]
+  },
+  {
+    "name": "Gladiator",
+    "children": [
+      {
+        "name": "Year",
+        "value": "(2000)"
+      },
+      {
+        "name": "Genres",
+        "value": "Action, Adventure, Drama"
+      },
+      {
+        "name": "Content Rating",
+        "value": "R"
+      },
+      {
+        "name": "imDb Rating",
+        "value": "8.5"
+      },
+      {
+        "name": "Stars",
+        "value": "Ridley Scott, Russell Crowe, Joaquin Phoenix, Connie Nielsen, Oliver Reed"
+      }
+    ]
+  },
+  {
+    "name": "Django Unchained",
+    "children": [
+      {
+        "name": "Year",
+        "value": "(2012)"
+      },
+      {
+        "name": "Genres",
+        "value": "Drama, Western"
+      },
+      {
+        "name": "Content Rating",
+        "value": "R"
+      },
+      {
+        "name": "imDb Rating",
+        "value": "8.4"
+      },
+      {
+        "name": "Stars",
+        "value": "Quentin Tarantino, Jamie Foxx, Christoph Waltz, Leonardo DiCaprio, Kerry Washington"
+      }
+    ]
+  },
+  {
+    "name": "Alien",
+    "children": [
+      {
+        "name": "Year",
+        "value": "(1979)"
+      },
+      {
+        "name": "Genres",
+        "value": "Horror, Sci-Fi"
+      },
+      {
+        "name": "Content Rating",
+        "value": "R"
+      },
+      {
+        "name": "imDb Rating",
+        "value": "8.5"
+      },
+      {
+        "name": "Stars",
+        "value": "Ridley Scott, Sigourney Weaver, Tom Skerritt, John Hurt, Veronica Cartwright"
+      }
+    ]
+  },
+{
+    "name": "Joker",
+    "children": [
+      {
+        "name": "Year",
+        "value": "(I) (2019)"
+      },
+      {
+        "name": "Genres",
+        "value": "Crime, Drama, Thriller"
+      },
+      {
+        "name": "Content Rating",
+        "value": "R"
+      },
+      {
+        "name": "imDb Rating",
+        "value": "8.4"
+      },
+      {
+        "name": "Stars",
+        "value": "Todd Phillips, Joaquin Phoenix, Robert De Niro, Zazie Beetz, Frances Conroy"
+      }
+    ]
+  },
+  {
+    "name": "Back to the Future",
+    "children": [
+      {
+        "name": "Year",
+        "value": "(1985)"
+      },
+      {
+        "name": "Genres",
+        "value": "Adventure, Comedy, Sci-Fi"
+      },
+      {
+        "name": "Content Rating",
+        "value": "PG"
+      },
+      {
+        "name": "imDb Rating",
+        "value": "8.5"
+      },
+      {
+        "name": "Stars",
+        "value": "Robert Zemeckis, Michael J. Fox, Christopher Lloyd, Lea Thompson, Crispin Glover"
+      }
+    ]
+  },
+   {
+    "name": "Gone Girl",
+    "children": [
+      {
+        "name": "Year",
+        "value": "(2014)"
+      },
+      {
+        "name": "Genres",
+        "value": "Drama, Mystery, Thriller"
+      },
+      {
+        "name": "Content Rating",
+        "value": "R"
+      },
+      {
+        "name": "imDb Rating",
+        "value": "8.1"
+      },
+      {
+        "name": "Stars",
+        "value": "David Fincher, Ben Affleck, Rosamund Pike, Neil Patrick Harris, Tyler Perry"
+      }
+    ]
+  },
+  {
+    "name": "The Grand Budapest Hotel",
+    "children": [
+      {
+        "name": "Year",
+        "value": "(2014)"
+      },
+      {
+        "name": "Genres",
+        "value": "Adventure, Comedy, Crime"
+      },
+      {
+        "name": "Content Rating",
+        "value": "R"
+      },
+      {
+        "name": "imDb Rating",
+        "value": "8.1"
+      },
+      {
+        "name": "Stars",
+        "value": "Wes Anderson, Ralph Fiennes, F. Murray Abraham, Mathieu Amalric, Adrien Brody"
+      }
+    ]
+  },
+  {
+    "name": "Se7en",
+    "children": [
+      {
+        "name": "Year",
+        "value": "(1995)"
+      },
+      {
+        "name": "Genres",
+        "value": "Crime, Drama, Mystery"
+      },
+      {
+        "name": "Content Rating",
+        "value": "R"
+      },
+      {
+        "name": "imDb Rating",
+        "value": "8.6"
+      },
+      {
+        "name": "Stars",
+        "value": "David Fincher, Morgan Freeman, Brad Pitt, Kevin Spacey, Andrew Kevin Walker"
+      }
+    ]
+  },
+   {
+    "name": "Aliens",
+    "children": [
+      {
+        "name": "Year",
+        "value": "(1986)"
+      },
+      {
+        "name": "Genres",
+        "value": "Action, Adventure, Sci-Fi"
+      },
+      {
+        "name": "Content Rating",
+        "value": "R"
+      },
+      {
+        "name": "imDb Rating",
+        "value": "8.4"
+      },
+      {
+        "name": "Stars",
+        "value": "James Cameron, Sigourney Weaver, Michael Biehn, Carrie Henn, Paul Reiser"
+      }
+    ]
+  },
+   {
+    "name": "Schindler's List",
+    "children": [
+      {
+        "name": "Year",
+        "value": "(1993)"
+      },
+      {
+        "name": "Genres",
+        "value": "Biography, Drama, History"
+      },
+      {
+        "name": "Content Rating",
+        "value": "R"
+      },
+      {
+        "name": "imDb Rating",
+        "value": "9.0"
+      },
+      {
+        "name": "Stars",
+        "value": "Steven Spielberg, Liam Neeson, Ralph Fiennes, Ben Kingsley, Caroline Goodall"
+      }
+    ]
+  },
+   {
+    "name": "Forrest Gump",
+    "children": [
+      {
+        "name": "Year",
+        "value": "(1994)"
+      },
+      {
+        "name": "Genres",
+        "value": "Drama, Romance"
+      },
+      {
+        "name": "Content Rating",
+        "value": "PG-13"
+      },
+      {
+        "name": "imDb Rating",
+        "value": "8.8"
+      },
+      {
+        "name": "Stars",
+        "value": "Robert Zemeckis, Tom Hanks, Robin Wright, Gary Sinise, Sally Field"
+      }
+    ]
+  },
+  {
+    "name": "Pirates of the Caribbean: The Curse of the Black Pearl",
+    "children": [
+      {
+        "name": "Year",
+        "value": "(2003)"
+      },
+      {
+        "name": "Genres",
+        "value": "Action, Adventure, Fantasy"
+      },
+      {
+        "name": "Content Rating",
+        "value": "PG-13"
+      },
+      {
+        "name": "imDb Rating",
+        "value": "8.1"
+      },
+      {
+        "name": "Stars",
+        "value": "Gore Verbinski, Johnny Depp, Geoffrey Rush, Orlando Bloom, Keira Knightley"
+      }
+    ]
+  },
+  {
+    "name": "Parasite",
+    "children": [
+      {
+        "name": "Year",
+        "value": "(2019)"
+      },
+      {
+        "name": "Genres",
+        "value": "Drama, Thriller"
+      },
+      {
+        "name": "Content Rating",
+        "value": "R"
+      },
+      {
+        "name": "imDb Rating",
+        "value": "8.5"
+      },
+      {
+        "name": "Stars",
+        "value": "Bong Joon Ho, Song Kang-ho, Lee Sun-kyun, Cho Yeo-jeong, Choi Woo-sik"
+      }
+    ]
+  },
+  {
+    "name": "American Beauty",
+    "children": [
+      {
+        "name": "Year",
+        "value": "(1999)"
+      },
+      {
+        "name": "Genres",
+        "value": "Drama"
+      },
+      {
+        "name": "Content Rating",
+        "value": "R"
+      },
+      {
+        "name": "imDb Rating",
+        "value": "8.3"
+      },
+      {
+        "name": "Stars",
+        "value": "Sam Mendes, Kevin Spacey, Annette Bening, Thora Birch, Wes Bentley"
+      }
+    ]
+  },
+  {
+    "name": "Goodfellas",
+    "children": [
+      {
+        "name": "Year",
+        "value": "(1990)"
+      },
+      {
+        "name": "Genres",
+        "value": "Biography, Crime, Drama"
+      },
+      {
+        "name": "Content Rating",
+        "value": "R"
+      },
+      {
+        "name": "imDb Rating",
+        "value": "8.7"
+      },
+      {
+        "name": "Stars",
+        "value": "Martin Scorsese, Robert De Niro, Ray Liotta, Joe Pesci, Lorraine Bracco"
+      }
+    ]
+  },
+  {
+    "name": "The Matrix",
+    "children": [
+      {
+        "name": "Year",
+        "value": "(1999)"
+      },
+      {
+        "name": "Genres",
+        "value": "Action, Sci-Fi"
+      },
+      {
+        "name": "Content Rating",
+        "value": "R"
+      },
+      {
+        "name": "imDb Rating",
+        "value": "8.7"
+      },
+      {
+        "name": "Stars",
+        "value": "Lana Wachowski, Lilly Wachowski, Keanu Reeves, Laurence Fishburne, Carrie-Anne Moss, Hugo Weaving"
+      }
+    ]
+  },
+  {
+    "name": "Whiplash",
+    "children": [
+      {
+        "name": "Year",
+        "value": "(2014)"
+      },
+      {
+        "name": "Genres",
+        "value": "Drama, Music"
+      },
+      {
+        "name": "Content Rating",
+        "value": "R"
+      },
+      {
+        "name": "imDb Rating",
+        "value": "8.5"
+      },
+      {
+        "name": "Stars",
+        "value": "Damien Chazelle, Miles Teller, J.K. Simmons, Melissa Benoist, Paul Reiser"
+      }
+    ]
+  },
+  {
+    "name": "Saving Private Ryan",
+    "children": [
+      {
+        "name": "Year",
+        "value": "(1998)"
+      },
+      {
+        "name": "Genres",
+        "value": "Drama, War"
+      },
+      {
+        "name": "Content Rating",
+        "value": "R"
+      },
+      {
+        "name": "imDb Rating",
+        "value": "8.6"
+      },
+      {
+        "name": "Stars",
+        "value": "Steven Spielberg, Tom Hanks, Matt Damon, Tom Sizemore, Edward Burns"
+      }
+    ]
+  },
+  {
+    "name": "The Silence of the Lambs",
+    "children": [
+      {
+        "name": "Year",
+        "value": "(1991)"
+      },
+      {
+        "name": "Genres",
+        "value": "Crime, Drama, Thriller"
+      },
+      {
+        "name": "Content Rating",
+        "value": "R"
+      },
+      {
+        "name": "imDb Rating",
+        "value": "8.6"
+      },
+      {
+        "name": "Stars",
+        "value": "Jonathan Demme, Jodie Foster, Anthony Hopkins, Lawrence A. Bonney, Kasi Lemmons"
+      }
+    ]
+  },
+  {
+    "name": "There Will Be Blood",
+    "children": [
+      {
+        "name": "Year",
+        "value": "(2007)"
+      },
+      {
+        "name": "Genres",
+        "value": "Drama"
+      },
+      {
+        "name": "Content Rating",
+        "value": "R"
+      },
+      {
+        "name": "imDb Rating",
+        "value": "8.2"
+      },
+      {
+        "name": "Stars",
+        "value": "Paul Thomas Anderson, Daniel Day-Lewis, Paul Dano, Ciarin Hinds, Martin Stringer"
+      }
+    ]
+  },
+  {
+    "name": "Shutter Island",
+    "children": [
+      {
+        "name": "Year",
+        "value": "(2010)"
+      },
+      {
+        "name": "Genres",
+        "value": "Mystery, Thriller"
+      },
+      {
+        "name": "Content Rating",
+        "value": "R"
+      },
+      {
+        "name": "imDb Rating",
+        "value": "8.2"
+      },
+      {
+        "name": "Stars",
+        "value": "Martin Scorsese, Leonardo DiCaprio, Emily Mortimer, Mark Ruffalo, Ben Kingsley"
+      }
+    ]
+  },
+  {
+    "name": "The Shining",
+    "children": [
+      {
+        "name": "Year",
+        "value": "(1980)"
+      },
+      {
+        "name": "Genres",
+        "value": "Drama, Horror"
+      },
+      {
+        "name": "Content Rating",
+        "value": "R"
+      },
+      {
+        "name": "imDb Rating",
+        "value": "8.4"
+      },
+      {
+        "name": "Stars",
+        "value": "Stanley Kubrick, Jack Nicholson, Shelley Duvall, Danny Lloyd, Scatman Crothers"
+      }
+    ]
+  },
+  {
+    "name": "Requiem for a Dream",
+    "children": [
+      {
+        "name": "Year",
+        "value": "(2000)"
+      },
+      {
+        "name": "Genres",
+        "value": "Drama"
+      },
+      {
+        "name": "Content Rating",
+        "value": "R"
+      },
+      {
+        "name": "imDb Rating",
+        "value": "8.3"
+      },
+      {
+        "name": "Stars",
+       "value": "Darren Aronofsky, Ellen Burstyn, Jared Leto, Jennifer Connelly, Marlon Wayans"
+      }
+    ]
+  },
+  {
+    "name": "Leon: The Professional",
+    "children": [
+      {
+        "name": "Year",
+        "value": "(1994)"
+      },
+      {
+        "name": "Genres",
+        "value": "Action, Crime, Drama"
+      },
+      {
+        "name": "Content Rating",
+        "value": "R"
+      },
+      {
+        "name": "imDb Rating",
+        "value": "8.5"
+      },
+      {
+        "name": "Stars",
+        "value": "Luc Besson, Jean Reno, Gary Oldman, Natalie Portman, Danny Aiello"
+      }
+    ]
+  },
+  {
+    "name": "Good Will Hunting",
+    "children": [
+      {
+        "name": "Year",
+        "value": "(1997)"
+      },
+      {
+        "name": "Genres",
+        "value": "Drama, Romance"
+      },
+      {
+        "name": "Content Rating",
+        "value": "R"
+      },
+      {
+        "name": "imDb Rating",
+        "value": "8.3"
+      },
+      {
+        "name": "Stars",
+        "value": "Gus Van Sant, Robin Williams, Matt Damon, Ben Affleck, Stellan Skarsgard"
+      }
+    ]
+  },
+  {
+    "name": "Mad Max: Fury Road",
+    "children": [
+      {
+        "name": "Year",
+        "value": "(2015)"
+      },
+      {
+        "name": "Genres",
+        "value": "Action, Adventure, Sci-Fi"
+      },
+      {
+        "name": "Content Rating",
+        "value": "R"
+      },
+      {
+        "name": "imDb Rating",
+        "value": "8.1"
+      },
+      {
+        "name": "Stars",
+        "value": "George Miller, Tom Hardy, Charlize Theron, Nicholas Hoult, Zo Kravitz"
+      }
+    ]
+  },
+  {
+    "name": "Terminator 2: Judgment Day",
+    "children": [
+      {
+        "name": "Year",
+        "value": "(1991)"
+      },
+      {
+        "name": "Genres",
+        "value": "Action, Sci-Fi"
+      },
+      {
+        "name": "Content Rating",
+        "value": "R"
+      },
+      {
+        "name": "imDb Rating",
+        "value": "8.6"
+      },
+      {
+        "name": "Stars",
+        "value": "James Cameron, Arnold Schwarzenegger, Linda Hamilton, Edward Furlong, Robert Patrick"
+      }
+    ]
+  },
+  {
+    "name": "12 Angry Men",
+    "children": [
+      {
+        "name": "Year",
+        "value": "(1957)"
+      },
+      {
+        "name": "Genres",
+        "value": "Crime, Drama"
+      },
+      {
+        "name": "Content Rating",
+        "value": "Approved"
+      },
+      {
+        "name": "imDb Rating",
+        "value": "9.0"
+      },
+      {
+        "name": "Stars",
+        "value": "Sidney Lumet, Henry Fonda, Lee J. Cobb, Martin Balsam, John Fiedler"
+      }
+    ]
+  },
+  {
+    "name": "Hacksaw Ridge",
+    "children": [
+      {
+        "name": "Year",
+        "value": "(2016)"
+      },
+      {
+        "name": "Genres",
+        "value": "Biography, Drama, History"
+      },
+      {
+        "name": "Content Rating",
+        "value": "R"
+      },
+      {
+        "name": "imDb Rating",
+        "value": "8.1"
+      },
+      {
+        "name": "Stars",
+        "value": "Mel Gibson, Andrew Garfield, Sam Worthington, Luke Bracey, Teresa Palmer"
+      }
+    ]
+  },
+  {
+    "name": "Taxi Driver",
+    "children": [
+      {
+        "name": "Year",
+        "value": "(1976)"
+      },
+      {
+        "name": "Genres",
+        "value": "Crime, Drama"
+      },
+      {
+        "name": "Content Rating",
+        "value": "R"
+      },
+      {
+        "name": "imDb Rating",
+        "value": "8.2"
+      },
+      {
+        "name": "Stars",
+        "value": "Martin Scorsese, Robert De Niro, Jodie Foster, Cybill Shepherd, Albert Brooks"
+      }
+    ]
+  },
+  {
+    "name": "One Flew Over the Cuckoo's Nest",
+    "children": [
+      {
+        "name": "Year",
+        "value": "(1975)"
+      },
+      {
+        "name": "Genres",
+        "value": "Drama"
+      },
+      {
+        "name": "Content Rating",
+        "value": "R"
+      },
+      {
+        "name": "imDb Rating",
+        "value": "8.7"
+      },
+      {
+        "name": "Stars",
+        "value": "Milos Forman, Jack Nicholson, Louise Fletcher, Michael Berryman, Peter Brocco"
+      }
+    ]
+  },
+  {
+    "name": "The Truman Show",
+    "children": [
+      {
+        "name": "Year",
+        "value": "(1998)"
+      },
+      {
+        "name": "Genres",
+        "value": "Comedy, Drama"
+      },
+      {
+        "name": "Content Rating",
+        "value": "PG"
+      },
+      {
+        "name": "imDb Rating",
+        "value": "8.2"
+      },
+      {
+        "name": "Stars",
+        "value": "Peter Weir, Jim Carrey, Ed Harris, Laura Linney, Noah Emmerich"
+      }
+    ]
+  },
+  {
+    "name": "The Green Mile",
+    "children": [
+      {
+        "name": "Year",
+        "value": "(1999)"
+      },
+      {
+        "name": "Genres",
+        "value": "Crime, Drama, Fantasy"
+      },
+      {
+        "name": "Content Rating",
+        "value": "R"
+      },
+      {
+        "name": "imDb Rating",
+        "value": "8.6"
+      },
+      {
+        "name": "Stars",
+        "value": "Frank Darabont, Tom Hanks, Michael Clarke Duncan, David Morse, Bonnie Hunt"
+      }
+    ]
+  },
+  {
+    "name": "Blade Runner",
+    "children": [
+      {
+        "name": "Year",
+        "value": "(1982)"
+      },
+      {
+        "name": "Genres",
+        "value": "Action, Drama, Sci-Fi"
+      },
+      {
+        "name": "Content Rating",
+        "value": "R"
+      },
+      {
+        "name": "imDb Rating",
+        "value": "8.1"
+      },
+      {
+        "name": "Stars",
+        "value": "Ridley Scott, Harrison Ford, Rutger Hauer, Sean Young, Edward James Olmos"
+      }
+    ]
+  },
+  {
+    "name": "The Terminator",
+    "children": [
+      {
+        "name": "Year",
+        "value": "(1984)"
+      },
+      {
+        "name": "Genres",
+        "value": "Action, Sci-Fi"
+      },
+      {
+        "name": "Content Rating",
+        "value": "R"
+      },
+      {
+        "name": "imDb Rating",
+        "value": "8.1"
+      },
+      {
+        "name": "Stars",
+        "value": "James Cameron, Arnold Schwarzenegger, Linda Hamilton, Michael Biehn, Paul Winfield"
+      }
+    ]
+  },
+  {
+    "name": "1917",
+    "children": [
+      {
+        "name": "Year",
+        "value": "(2019)"
+      },
+      {
+        "name": "Genres",
+        "value": "Action, Drama, War"
+      },
+      {
+        "name": "Content Rating",
+        "value": "R"
+      },
+      {
+        "name": "imDb Rating",
+        "value": "8.2"
+      },
+      {
+        "name": "Stars",
+        "value": "Sam Mendes, Dean-Charles Chapman, George MacKay, Daniel Mays, Colin Firth"
+      }
+    ]
+  },
+  {
+    "name": "The Lord of the Rings: The Return of the King",
+    "children": [
+      {
+        "name": "Year",
+        "value": "(2003)"
+      },
+      {
+        "name": "Genres",
+        "value": "Action, Adventure, Drama"
+      },
+      {
+        "name": "Content Rating",
+        "value": "PG-13"
+      },
+      {
+        "name": "imDb Rating",
+        "value": "9.0"
+      },
+      {
+        "name": "Stars",
+        "value": "Peter Jackson, Elijah Wood, Viggo Mortensen, Ian McKellen, Orlando Bloom"
+      }
+    ]
+  },
+  {
+    "name": "Stand by Me",
+    "children": [
+      {
+        "name": "Year",
+        "value": "(1986)"
+      },
+      {
+        "name": "Genres",
+        "value": "Adventure, Drama"
+      },
+      {
+        "name": "Content Rating",
+        "value": "R"
+      },
+      {
+        "name": "imDb Rating",
+        "value": "8.1"
+      },
+      {
+        "name": "Stars",
+        "value": "Rob Reiner, Wil Wheaton, River Phoenix, Corey Feldman, Jerry O'Connell"
+      }
+    ]
+  },
+  {
+    "name": "The Pianist",
+    "children": [
+      {
+        "name": "Year",
+        "value": "(2002)"
+      },
+      {
+        "name": "Genres",
+        "value": "Biography, Drama, Music"
+      },
+      {
+        "name": "Content Rating",
+        "value": "R"
+      },
+      {
+        "name": "imDb Rating",
+        "value": "8.5"
+      },
+      {
+        "name": "Stars",
+        "value": "Roman Polanski, Adrien Brody, Thomas Kretschmann, Frank Finlay, Emilia Fox"
+      }
+    ]
+  },
+  {
+    "name": "Apocalypse Now",
+    "children": [
+      {
+        "name": "Year",
+        "value": "(1979)"
+      },
+      {
+        "name": "Genres",
+        "value": "Drama, Mystery, War"
+      },
+      {
+        "name": "Content Rating",
+        "value": "R"
+      },
+      {
+        "name": "imDb Rating",
+        "value": "8.4"
+      },
+      {
+        "name": "Stars",
+        "value": "Francis Ford Coppola, Martin Sheen, Marlon Brando, Robert Duvall, Frederic Forrest"
+      }
+    ]
+  },
+  {
+    "name": "The Godfather Part II",
+    "children": [
+      {
+        "name": "Year",
+        "value": "(1974)"
+      },
+      {
+        "name": "Genres",
+        "value": "Crime, Drama"
+      },
+      {
+        "name": "Content Rating",
+        "value": "R"
+      },
+      {
+        "name": "imDb Rating",
+        "value": "9.0"
+      },
+      {
+        "name": "Stars",
+        "value": "Francis Ford Coppola, Al Pacino, Robert De Niro, Robert Duvall, Diane Keaton"
+      }
+    ]
+  },
+  {
+    "name": "Star Wars: Episode IV - A New Hope",
+    "children": [
+      {
+        "name": "Year",
+        "value": "(1977)"
+      },
+      {
+        "name": "Genres",
+        "value": "Action, Adventure, Fantasy"
+      },
+      {
+        "name": "Content Rating",
+        "value": "PG"
+      },
+      {
+        "name": "imDb Rating",
+        "value": "8.6"
+      },
+      {
+        "name": "Stars",
+        "value": "George Lucas, Mark Hamill, Harrison Ford, Carrie Fisher, Alec Guinness"
+      }
+    ]
+  },
+  {
+    "name": "Catch Me If You Can",
+    "children": [
+      {
+        "name": "Year",
+        "value": "(2002)"
+      },
+      {
+        "name": "Genres",
+        "value": "Biography, Crime, Drama"
+      },
+      {
+        "name": "Content Rating",
+        "value": "PG-13"
+      },
+      {
+        "name": "imDb Rating",
+        "value": "8.1"
+      },
+      {
+        "name": "Stars",
+        "value": "Steven Spielberg, Leonardo DiCaprio, Tom Hanks, Christopher Walken, Martin Sheen"
+      }
+    ]
+  },
+  {
+    "name": "Scarface",
+    "children": [
+      {
+        "name": "Year",
+        "value": "(1983)"
+      },
+      {
+        "name": "Genres",
+        "value": "Crime, Drama"
+      },
+      {
+        "name": "Content Rating",
+        "value": "R"
+      },
+      {
+        "name": "imDb Rating",
+        "value": "8.3"
+      },
+      {
+        "name": "Stars",
+        "value": "Brian De Palma, Al Pacino, Michelle Pfeiffer, Steven Bauer, Mary Elizabeth Mastrantonio"
+      }
+    ]
+  },
+  {
+    "name": "2001: A Space Odyssey",
+    "children": [
+      {
+        "name": "Year",
+        "value": "(1968)"
+      },
+      {
+        "name": "Genres",
+        "value": "Adventure, Sci-Fi"
+      },
+      {
+        "name": "Content Rating",
+        "value": "G"
+      },
+      {
+        "name": "imDb Rating",
+        "value": "8.3"
+      },
+      {
+        "name": "Stars",
+        "value": "Stanley Kubrick, Keir Dullea, Gary Lockwood, William Sylvester, Daniel Richter"
+      }
+    ]
+  },
+  {
+    "name": "The Usual Suspects",
+    "children": [
+      {
+        "name": "Year",
+        "value": "(1995)"
+      },
+      {
+        "name": "Genres",
+        "value": "Crime, Drama, Mystery"
+      },
+      {
+        "name": "Content Rating",
+        "value": "R"
+      },
+      {
+        "name": "imDb Rating",
+        "value": "8.5"
+      },
+      {
+        "name": "Stars",
+        "value": "Bryan Singer, Kevin Spacey, Gabriel Byrne, Chazz Palminteri, Stephen Baldwin"
+      }
+    ]
+  },
+  {
+    "name": "Avengers: Infinity War",
+    "children": [
+      {
+        "name": "Year",
+        "value": "(2018)"
+      },
+      {
+        "name": "Genres",
+        "value": "Action, Adventure, Sci-Fi"
+      },
+      {
+        "name": "Content Rating",
+        "value": "PG-13"
+      },
+      {
+        "name": "imDb Rating",
+        "value": "8.4"
+      },
+      {
+        "name": "Stars",
+        "value": "Anthony Russo, Joe Russo, Robert Downey Jr., Chris Hemsworth, Mark Ruffalo, Chris Evans"
+      }
+    ]
+  },
+  {
+    "name": "The Hunt",
+    "children": [
+      {
+        "name": "Year",
+        "value": "(2012)"
+      },
+      {
+        "name": "Genres",
+        "value": "Drama"
+      },
+      {
+        "name": "Content Rating",
+        "value": "R"
+      },
+      {
+        "name": "imDb Rating",
+        "value": "8.3"
+      },
+      {
+        "name": "Stars",
+        "value": "Thomas Vinterberg, Mads Mikkelsen, Thomas Bo Larsen, Annika Wedderkopp, Lasse Fogelstr\u00f8m"
+      }
+    ]
+  },
+  {
+    "name": "Logan",
+    "children": [
+      {
+        "name": "Year",
+        "value": "(2017)"
+      },
+      {
+        "name": "Genres",
+        "value": "Action, Drama, Sci-Fi"
+      },
+      {
+        "name": "Content Rating",
+        "value": "R"
+      },
+      {
+        "name": "imDb Rating",
+        "value": "8.1"
+      },
+      {
+        "name": "Stars",
+        "value": "James Mangold, Hugh Jackman, Patrick Stewart, Dafne Keen, Boyd Holbrook"
+      }
+    ]
+  },
+  {
+    "name": "Ford v Ferrari",
+    "children": [
+      {
+        "name": "Year",
+        "value": "(2019)"
+      },
+      {
+        "name": "Genres",
+        "value": "Action, Biography, Drama"
+      },
+      {
+        "name": "Content Rating",
+        "value": "PG-13"
+      },
+      {
+        "name": "imDb Rating",
+        "value": "8.1"
+      },
+      {
+        "name": "Stars",
+        "value": "James Mangold, Matt Damon, Christian Bale, Jon Bernthal, Caitriona Balfe"
+      }
+    ]
+  },
+  {
+    "name": "The Wizard of Oz",
+    "children": [
+      {
+        "name": "Year",
+        "value": "(1939)"
+      },
+      {
+        "name": "Genres",
+        "value": "Adventure, Family, Fantasy"
+      },
+      {
+        "name": "Content Rating",
+        "value": "PG"
+      },
+      {
+        "name": "imDb Rating",
+        "value": "8.1"
+      },
+      {
+        "name": "Stars",
+        "value": "Victor Fleming, George Cukor, Mervyn LeRoy, Norman Taurog, Richard Thorpe, King Vidor, Judy Garland, Frank Morgan, Ray Bolger, Bert Lahr"
+      }
+    ]
+  },
+  {
+    "name": "Braveheart",
+    "children": [
+      {
+        "name": "Year",
+        "value": "(1995)"
+      },
+      {
+        "name": "Genres",
+        "value": "Biography, Drama, History"
+      },
+      {
+        "name": "Content Rating",
+        "value": "R"
+      },
+      {
+        "name": "imDb Rating",
+        "value": "8.3"
+      },
+      {
+        "name": "Stars",
+        "value": "Mel Gibson, Sophie Marceau, Patrick McGoohan, Angus Macfadyen"
+      }
+    ]
+  },
+  {
+    "name": "Harry Potter and the Deathly Hallows: Part 2",
+    "children": [
+      {
+        "name": "Year",
+        "value": "(2011)"
+      },
+      {
+        "name": "Genres",
+        "value": "Adventure, Family, Fantasy"
+      },
+      {
+        "name": "Content Rating",
+        "value": "PG-13"
+      },
+      {
+        "name": "imDb Rating",
+        "value": "8.1"
+      },
+      {
+        "name": "Stars",
+        "value": "David Yates, Daniel Radcliffe, Emma Watson, Rupert Grint, Michael Gambon"
+      }
+    ]
+  },
+  {
+    "name": "Eternal Sunshine of the Spotless Mind",
+    "children": [
+      {
+        "name": "Year",
+        "value": "(2004)"
+      },
+      {
+        "name": "Genres",
+        "value": "Drama, Romance, Sci-Fi"
+      },
+      {
+        "name": "Content Rating",
+        "value": "R"
+      },
+      {
+        "name": "imDb Rating",
+        "value": "8.3"
+      },
+      {
+        "name": "Stars",
+        "value": "Michel Gondry, Jim Carrey, Kate Winslet, Tom Wilkinson, Gerry Robert Byrne"
+      }
+    ]
+  },
+  {
+    "name": "Die Hard",
+    "children": [
+      {
+        "name": "Year",
+        "value": "(1988)"
+      },
+      {
+        "name": "Genres",
+        "value": "Action, Thriller"
+      },
+      {
+        "name": "Content Rating",
+        "value": "R"
+      },
+      {
+        "name": "imDb Rating",
+        "value": "8.2"
+      },
+      {
+        "name": "Stars",
+        "value": "John McTiernan, Bruce Willis, Alan Rickman, Bonnie Bedelia, Reginald VelJohnson"
+      }
+    ]
+  },
+  {
+    "name": "The Big Lebowski",
+    "children": [
+      {
+        "name": "Year",
+        "value": "(1998)"
+      },
+      {
+        "name": "Genres",
+        "value": "Comedy, Crime"
+      },
+      {
+        "name": "Content Rating",
+        "value": "R"
+      },
+      {
+        "name": "imDb Rating",
+        "value": "8.1"
+      },
+      {
+        "name": "Stars",
+        "value": "Joel Coen, Ethan Coen, Jeff Bridges, John Goodman, Julianne Moore, Steve Buscemi"
+      }
+    ]
+  },
+  {
+    "name": "Cool Hand Luke",
+    "children": [
+      {
+        "name": "Year",
+        "value": "(1967)"
+      },
+      {
+        "name": "Genres",
+        "value": "Crime, Drama"
+      },
+      {
+        "name": "Content Rating",
+        "value": "GP"
+      },
+      {
+        "name": "imDb Rating",
+        "value": "8.1"
+      },
+      {
+        "name": "Stars",
+        "value": "Stuart Rosenberg, Paul Newman, George Kennedy, Strother Martin, J.D. Cannon"
+      }
+    ]
+  },
+  {
+    "name": "Once Upon a Time in America",
+    "children": [
+      {
+        "name": "Year",
+        "value": "(1984)"
+      },
+      {
+        "name": "Genres",
+        "value": "Crime, Drama"
+      },
+      {
+        "name": "Content Rating",
+        "value": "R"
+      },
+      {
+        "name": "imDb Rating",
+        "value": "8.3"
+      },
+      {
+        "name": "Stars",
+        "value": "Sergio Leone, Robert De Niro, James Woods, Elizabeth McGovern, Treat Williams"
+      }
+    ]
+  },
+  {
+    "name": "A Clockwork Orange",
+    "children": [
+      {
+        "name": "Year",
+        "value": "(1971)"
+      },
+      {
+        "name": "Genres",
+        "value": "Crime, Sci-Fi"
+      },
+      {
+        "name": "Content Rating",
+        "value": "R"
+      },
+      {
+        "name": "imDb Rating",
+        "value": "8.3"
+      },
+      {
+        "name": "Stars",
+        "value": "Stanley Kubrick, Malcolm McDowell, Patrick Magee, Michael Bates, Warren Clarke"
+      }
+    ]
+  },
+  {
+    "name": "Snatch",
+    "children": [
+      {
+        "name": "Year",
+        "value": "(2000)"
+      },
+      {
+        "name": "Genres",
+        "value": "Comedy, Crime"
+      },
+      {
+        "name": "Content Rating",
+        "value": "R"
+      },
+      {
+        "name": "imDb Rating",
+        "value": "8.2"
+      },
+      {
+        "name": "Stars",
+        "value": "Guy Ritchie, Jason Statham, Brad Pitt, Stephen Graham, Vinnie Jones"
+      }
+    ]
+  },
+  {
+    "name": "The Exorcist",
+    "children": [
+      {
+        "name": "Year",
+        "value": "(1973)"
+      },
+      {
+        "name": "Genres",
+        "value": "Horror"
+      },
+      {
+        "name": "Content Rating",
+        "value": "R"
+      },
+      {
+        "name": "imDb Rating",
+        "value": "8.1"
+      },
+      {
+        "name": "Stars",
+        "value": "William Friedkin, Ellen Burstyn, Max von Sydow, Linda Blair, Lee J. Cobb"
+      }
+    ]
+  },
+  {
+    "name": "Casino",
+    "children": [
+      {
+        "name": "Year",
+        "value": "(1995)"
+      },
+      {
+        "name": "Genres",
+        "value": "Crime, Drama"
+      },
+      {
+        "name": "Content Rating",
+        "value": "R"
+      },
+      {
+        "name": "imDb Rating",
+        "value": "8.2"
+      },
+      {
+        "name": "Stars",
+        "value": "Martin Scorsese, Robert De Niro, Sharon Stone, Joe Pesci, James Woods"
+      }
+    ]
+  },
+  {
+    "name": "The Lion King",
+    "children": [
+      {
+        "name": "Year",
+        "value": "(1994)"
+      },
+      {
+        "name": "Genres",
+        "value": "Animation, Adventure, Drama"
+      },
+      {
+        "name": "Content Rating",
+        "value": "G"
+      },
+      {
+        "name": "imDb Rating",
+        "value": "8.5"
+      },
+      {
+        "name": "Stars",
+        "value": "Roger Allers, Rob Minkoff, Matthew Broderick, Jeremy Irons, James Earl Jones, Whoopi Goldberg"
+      }
+    ]
+  },
+  {
+    "name": "Reservoir Dogs",
+    "children": [
+      {
+        "name": "Year",
+        "value": "(1992)"
+      },
+      {
+        "name": "Genres",
+        "value": "Crime, Thriller"
+      },
+      {
+        "name": "Content Rating",
+        "value": "R"
+      },
+      {
+        "name": "imDb Rating",
+        "value": "8.3"
+      },
+      {
+        "name": "Stars",
+        "value": "Quentin Tarantino, Harvey Keitel, Tim Roth, Michael Madsen, Chris Penn"
+      }
+    ]
+  },
+  {
+    "name": "Ratatouille",
+    "children": [
+      {
+        "name": "Year",
+        "value": "(2007)"
+      },
+      {
+        "name": "Genres",
+        "value": "Animation, Adventure, Comedy"
+      },
+      {
+        "name": "Content Rating",
+        "value": "G"
+      },
+      {
+        "name": "imDb Rating",
+        "value": "8.1"
+      },
+      {
+        "name": "Stars",
+        "value": "Brad Bird, Jan Pinkava, Brad Garrett, Lou Romano, Patton Oswalt, Ian Holm"
+      }
+    ]
+  },
+  {
+    "name": "Green Book",
+    "children": [
+      {
+        "name": "Year",
+        "value": "(2018)"
+      },
+      {
+        "name": "Genres",
+        "value": "Biography, Comedy, Drama"
+      },
+      {
+        "name": "Content Rating",
+        "value": "PG-13"
+      },
+      {
+        "name": "imDb Rating",
+        "value": "8.2"
+      },
+      {
+        "name": "Stars",
+        "value": "Peter Farrelly, Viggo Mortensen, Mahershala Ali, Linda Cardellini, Sebastian Maniscalco"
+      }
+    ]
+  },
+  {
+    "name": "American History X",
+    "children": [
+      {
+        "name": "Year",
+        "value": "(1998)"
+      },
+      {
+        "name": "Genres",
+        "value": "Crime, Drama"
+      },
+      {
+        "name": "Content Rating",
+        "value": "R"
+      },
+      {
+        "name": "imDb Rating",
+        "value": "8.5"
+      },
+      {
+        "name": "Stars",
+        "value": "Tony Kaye, Edward Norton, Edward Furlong, Beverly D'Angelo, Jennifer Lien"
+      }
+    ]
+  },
+  {
+    "name": "The Good, the Bad and the Ugly",
+    "children": [
+      {
+        "name": "Year",
+        "value": "(1966)"
+      },
+      {
+        "name": "Genres",
+        "value": "Adventure, Western"
+      },
+      {
+        "name": "Content Rating",
+        "value": "Approved"
+      },
+      {
+        "name": "imDb Rating",
+        "value": "8.8"
+      },
+      {
+        "name": "Stars",
+        "value": "Sergio Leone, Clint Eastwood, Eli Wallach, Lee Van Cleef, Aldo Giuffr"
+      }
+    ]
+  },
+  {
+    "name": "Full Metal Jacket",
+    "children": [
+      {
+        "name": "Year",
+        "value": "(1987)"
+      },
+      {
+        "name": "Genres",
+        "value": "Drama, War"
+      },
+      {
+        "name": "Content Rating",
+        "value": "R"
+      },
+      {
+        "name": "imDb Rating",
+        "value": "8.3"
+      },
+      {
+        "name": "Stars",
+        "value": "Stanley Kubrick, Matthew Modine, R. Lee Ermey, Vincent D'Onofrio, Adam Baldwin"
+      }
+    ]
+  },
+  {
+    "name": "Fargo",
+    "children": [
+      {
+        "name": "Year",
+        "value": "(1996)"
+      },
+      {
+        "name": "Genres",
+        "value": "Crime, Thriller"
+      },
+      {
+        "name": "Content Rating",
+        "value": "R"
+      },
+      {
+        "name": "imDb Rating",
+        "value": "8.1"
+      },
+      {
+        "name": "Stars",
+        "value": "Joel Coen, Ethan Coen, William H. Macy, Frances McDormand, Steve Buscemi, Peter Stormare"
+      }
+    ]
+  },
+  {
+    "name": "Amadeus",
+    "children": [
+      {
+        "name": "Year",
+        "value": "(1984)"
+      },
+      {
+        "name": "Genres",
+        "value": "Biography, Drama, Music"
+      },
+      {
+        "name": "Content Rating",
+        "value": "R"
+      },
+      {
+        "name": "imDb Rating",
+        "value": "8.4"
+      },
+      {
+        "name": "Stars",
+        "value": "Milos Forman, F. Murray Abraham, Tom Hulce, Elizabeth Berridge, Roy Dotrice"
+      }
+    ]
+  },
+  {
+    "name": "The Lord of the Rings: The Two Towers",
+    "children": [
+      {
+        "name": "Year",
+        "value": "(2002)"
+      },
+      {
+        "name": "Genres",
+        "value": "Action, Adventure, Drama"
+      },
+      {
+        "name": "Content Rating",
+        "value": "PG-13"
+      },
+      {
+        "name": "imDb Rating",
+        "value": "8.8"
+      },
+      {
+        "name": "Stars",
+        "value": "Peter Jackson, Elijah Wood, Ian McKellen, Viggo Mortensen, Orlando Bloom"
+      }
+    ]
+  },
+  {
+    "name": "The Help",
+    "children": [
+      {
+        "name": "Year",
+        "value": "(2011)"
+      },
+      {
+        "name": "Genres",
+        "value": "Drama"
+      },
+      {
+        "name": "Content Rating",
+        "value": "PG-13"
+      },
+      {
+        "name": "imDb Rating",
+        "value": "8.1"
+      },
+      {
+        "name": "Stars",
+        "value": "Tate Taylor, Viola Davis, Emma Stone, Octavia Spencer, Bryce Dallas Howard"
+      }
+    ]
+  },
+  {
+    "name": "Inside Out",
+    "children": [
+      {
+        "name": "Year",
+        "value": "(I) (2015)"
+      },
+      {
+        "name": "Genres",
+        "value": "Animation, Adventure, Comedy"
+      },
+      {
+        "name": "Content Rating",
+        "value": "PG"
+      },
+      {
+        "name": "imDb Rating",
+        "value": "8.1"
+      },
+      {
+        "name": "Stars",
+        "value": "Pete Docter, Ronnie Del Carmen, Amy Poehler, Bill Hader, Lewis Black, Mindy Kaling"
+      }
+    ]
+  },
+  {
+    "name": "The Thing",
+    "children": [
+      {
+        "name": "Year",
+        "value": "(1982)"
+      },
+      {
+        "name": "Genres",
+        "value": "Horror, Mystery, Sci-Fi"
+      },
+      {
+        "name": "Content Rating",
+        "value": "16+"
+      },
+      {
+        "name": "imDb Rating",
+        "value": "8.2"
+      },
+      {
+        "name": "Stars",
+        "value": "John Carpenter, Kurt Russell, Wilford Brimley, Keith David, Richard Masur"
+      }
+    ]
+  },
+  {
+    "name": "The Sixth Sense",
+    "children": [
+      {
+        "name": "Year",
+        "value": "(1999)"
+      },
+      {
+        "name": "Genres",
+        "value": "Drama, Mystery, Thriller"
+      },
+      {
+        "name": "Content Rating",
+        "value": "PG-13"
+      },
+      {
+        "name": "imDb Rating",
+        "value": "8.2"
+      },
+      {
+        "name": "Stars",
+        "value":"M. Night Shyamalan, Bruce Willis, Haley Joel Osment, Toni Collette, Olivia Williams"
+      }
+    ]
+  },
+  {
+    "name": "Kill Bill: Vol. 1",
+    "children": [
+      {
+        "name": "Year",
+        "value": "(2003)"
+      },
+      {
+        "name": "Genres",
+        "value": "Action, Crime, Thriller"
+      },
+      {
+        "name": "Content Rating",
+        "value": "R"
+      },
+      {
+        "name": "imDb Rating",
+        "value": "8.2"
+      },
+      {
+        "name": "Stars",
+        "value":"Quentin Tarantino, Uma Thurman, David Carradine, Daryl Hannah, Michael Madsen"
+      }
+    ]
+  },
+  {
+    "name": "Toy Story",
+    "children": [
+      {
+        "name": "Year",
+        "value": "(1995)"
+      },
+      {
+        "name": "Genres",
+        "value": "Animation, Adventure, Comedy"
+      },
+      {
+        "name": "Content Rating",
+        "value": "G"
+      },
+      {
+        "name": "imDb Rating",
+        "value": "8.3"
+      },
+      {
+        "name": "Stars",
+        "value":"John Lasseter, Tom Hanks, Tim Allen, Don Rickles, Jim Varney"
+      }
+    ]
+  },
+  {
+    "name": "Warrior",
+    "children": [
+      {
+        "name": "Year",
+        "value": "(2011)"
+      },
+      {
+        "name": "Genres",
+        "value": "Action, Drama, Sport"
+      },
+      {
+        "name": "Content Rating",
+        "value": "PG-13"
+      },
+      {
+        "name": "imDb Rating",
+        "value": "8.1"
+      },
+      {
+        "name": "Stars",
+        "value":"Gavin O'Connor, Tom Hardy, Nick Nolte, Joel Edgerton, Jennifer Morrison"
+      }
+    ]
+  },
+  {
+    "name": "Three Billboards Outside Ebbing, Missouri",
+    "children": [
+      {
+        "name": "Year",
+        "value": "(2017)"
+      },
+      {
+        "name": "Genres",
+        "value": "Comedy, Crime, Drama"
+      },
+      {
+        "name": "Content Rating",
+        "value": "R"
+      },
+      {
+        "name": "imDb Rating",
+        "value": "8.1"
+      },
+      {
+        "name": "Stars",
+        "value":"Martin McDonagh, Frances McDormand, Woody Harrelson, Sam Rockwell, Caleb Landry Jones"
+      }
+    ]
+  },
+  {
+    "name": "A Beautiful Mind",
+    "children": [
+      {
+        "name": "Year",
+        "value": "(2001)"
+      },
+      {
+        "name": "Genres",
+        "value": "Biography, Drama"
+      },
+      {
+        "name": "Content Rating",
+        "value": "PG-13"
+      },
+      {
+        "name": "imDb Rating",
+        "value": "8.2"
+      },
+      {
+        "name": "Stars",
+        "value":"Ron Howard, Russell Crowe, Ed Harris, Jennifer Connelly, Christopher Plummer"
+      }
+    ]
+  },
+  {
+    "name": "The Intouchables",
+    "children": [
+      {
+        "name": "Year",
+        "value": "(2011)"
+      },
+      {
+        "name": "Genres",
+        "value": "Biography, Comedy, Drama"
+      },
+      {
+        "name": "Content Rating",
+        "value": "R"
+      },
+      {
+        "name": "imDb Rating",
+        "value": "8.5"
+      },
+      {
+        "name": "Stars",
+        "value":"Olivier Nakache, Eric Toledano, Fransois Cluzet, Omar Sy, Anne Le Ny, Audrey Fleurot"
+      }
+    ]
+  },
+  {
+    "name": "Dead Poets Society",
+    "children": [
+      {
+        "name": "Year",
+        "value": "(1989)"
+      },
+      {
+        "name": "Genres",
+        "value": "Comedy, Drama"
+      },
+      {
+        "name": "Content Rating",
+        "value": "PG"
+      },
+      {
+        "name": "imDb Rating",
+        "value": "8.1"
+      },
+      {
+        "name": "Stars",
+        "value":"Peter Weir, Robin Williams, Robert Sean Leonard, Ethan Hawke, Josh Charles"
+      }
+    ]
+  },
+  {
+    "name": "The Incredibles",
+    "children": [
+      {
+        "name": "Year",
+        "value": "(2004)"
+      },
+      {
+        "name": "Genres",
+        "value": "Animation, Action, Adventure"
+      },
+      {
+        "name": "Content Rating",
+        "value": "PG"
+      },
+      {
+        "name": "imDb Rating",
+        "value": "8.0"
+      },
+      {
+        "name": "Stars",
+        "value":"Brad Bird, Craig T. Nelson, Samuel L. Jackson, Holly Hunter, Jason Lee"
+      }
+    ]
+  },
+  {
+    "name": "Casablanca",
+    "children": [
+      {
+        "name": "Year",
+        "value": "(1942)"
+      },
+      {
+        "name": "Genres",
+        "value": "Drama, Romance, War"
+      },
+      {
+        "name": "Content Rating",
+        "value": "PG"
+      },
+      {
+        "name": "imDb Rating",
+        "value": "8.5"
+      },
+      {
+        "name": "Stars",
+        "value":"Michael Curtiz, Humphrey Bogart, Ingrid Bergman, Paul Henreid, Claude Rains"
+      }
+    ]
+  },
+  {
+    "name": "Hamilton",
+    "children": [
+      {
+        "name": "Year",
+        "value": "(2020)"
+      },
+      {
+        "name": "Genres",
+        "value": "Biography, Drama, History"
+      },
+      {
+        "name": "Content Rating",
+        "value": "PG-13"
+      },
+      {
+        "name": "imDb Rating",
+        "value": "8.3"
+      },
+      {
+        "name": "Stars",
+        "value":"Thomas Kail, Lin-Manuel Miranda, Phillipa Soo, Leslie Odom Jr., Rene Elise Goldsberry"
+      }
+    ]
+  },
+  {
+    "name": "L.A. Confidential",
+    "children": [
+      {
+        "name": "Year",
+        "value": "(1997)"
+      },
+      {
+        "name": "Genres",
+        "value": "Crime, Drama, Mystery"
+      },
+      {
+        "name": "Content Rating",
+        "value": "R"
+      },
+      {
+        "name": "imDb Rating",
+        "value": "8.2"
+      },
+      {
+        "name": "Stars",
+        "value":"Curtis Hanson, Kevin Spacey, Russell Crowe, Guy Pearce, Kim Basinger"
+      }
+    ]
+  },
+  {
+    "name": "Rocky",
+    "children": [
+      {
+        "name": "Year",
+        "value": "(1976)"
+      },
+      {
+        "name": "Genres",
+        "value": "Drama, Sport"
+      },
+      {
+        "name": "Content Rating",
+        "value": "PG"
+      },
+      {
+        "name": "imDb Rating",
+        "value": "8.1"
+      },
+      {
+        "name": "Stars",
+        "value":"John G. Avildsen, Sylvester Stallone, Talia Shire, Burt Young, Carl Weathers"
+      }
+    ]
+  },
+  {
+    "name": "Trainspotting",
+    "children": [
+      {
+        "name": "Year",
+        "value": "(1996)"
+      },
+      {
+        "name": "Genres",
+        "value": "Drama"
+      },
+      {
+        "name": "Content Rating",
+        "value": "R"
+      },
+      {
+        "name": "imDb Rating",
+        "value": "8.1"
+      },
+      {
+        "name": "Stars",
+        "value":"Danny Boyle, Ewan McGregor, Ewen Bremner, Jonny Lee Miller, Kevin McKidd"
+      }
+    ]
+  },
+  {
+    "name": "Psycho",
+    "children": [
+      {
+        "name": "Year",
+        "value": "(1960)"
+      },
+      {
+        "name": "Genres",
+        "value": "Horror, Mystery, Thriller"
+      },
+      {
+        "name": "Content Rating",
+        "value": "R"
+      },
+      {
+        "name": "imDb Rating",
+        "value": "8.5"
+      },
+      {
+        "name": "Stars",
+        "value":"Alfred Hitchcock, Anthony Perkins, Janet Leigh, Vera Miles, John Gavin"
+      }
+    ]
+  },
+  {
+    "name": "Life Is Beautiful",
+    "children": [
+      {
+        "name": "Year",
+        "value": "(1997)"
+      },
+      {
+        "name": "Genres",
+        "value": "Comedy, Drama, Romance"
+      },
+      {
+        "name": "Content Rating",
+        "value": "PG-13"
+      },
+      {
+        "name": "imDb Rating",
+        "value": "8.6"
+      },
+      {
+        "name": "Stars",
+        "value":"Roberto Benigni, Nicoletta Braschi, Giorgio Cantarini, Giustino Durano"
+      }
+    ]
+  },
+  {
+    "name": "Finding Nemo",
+    "children": [
+      {
+        "name": "Year",
+        "value": "(2003)"
+      },
+      {
+        "name": "Genres",
+        "value": "Animation, Adventure, Comedy"
+      },
+      {
+        "name": "Content Rating",
+        "value": "G"
+      },
+      {
+        "name": "imDb Rating",
+        "value": "8.2"
+      },
+      {
+        "name": "Stars",
+        "value":"Andrew Stanton, Lee Unkrich, Albert Brooks, Ellen DeGeneres, Alexander Gould, Willem Dafoe"
+      }
+    ]
+  },
+  {
+    "name": "The Father",
+    "children": [
+      {
+        "name": "Year",
+        "value": "(I) (2020)"
+      },
+      {
+        "name": "Genres",
+        "value": "Drama, Mystery"
+      },
+      {
+        "name": "Content Rating",
+        "value": "PG-13"
+      },
+      {
+        "name": "imDb Rating",
+        "value": "8.2"
+      },
+      {
+        "name": "Stars",
+        "value":"Florian Zeller, Anthony Hopkins, Olivia Colman, Mark Gatiss, Olivia Williams"
+      }
+    ]
+  },
+  {
+    "name": "Incendies",
+    "children": [
+      {
+        "name": "Year",
+        "value": "(2010)"
+      },
+      {
+        "name": "Genres",
+        "value": "Drama, Mystery"
+      },
+      {
+        "name": "Content Rating",
+        "value": "R"
+      },
+      {
+        "name": "imDb Rating",
+        "value": "8.3"
+      },
+      {
+        "name": "Stars",
+        "value":"Denis Villeneuve, Lubna Azabal, M\u00e9lissa D\u00e9sormeaux-Poulin, Maxim Gaudette, Mustafa Kamel"
+      }
+    ]
+  },
+  {
+    "name": "Into the Wild",
+    "children": [
+      {
+        "name": "Year",
+        "value": "(2007)"
+      },
+      {
+        "name": "Genres",
+        "value": "Adventure, Biography, Drama"
+      },
+      {
+        "name": "Content Rating",
+        "value": "R"
+      },
+      {
+        "name": "imDb Rating",
+        "value": "8.1"
+      },
+      {
+        "name": "Stars",
+        "value":"Sean Penn, Emile Hirsch, Vince Vaughn, Catherine Keener, Marcia Gay Harden"
+      }
+    ]
+  },
+  {
+    "name": "Up",
+    "children": [
+      {
+        "name": "Year",
+        "value": "(2009)"
+      },
+      {
+        "name": "Genres",
+        "value": "Animation, Adventure, Comedy"
+      },
+      {
+        "name": "Content Rating",
+        "value": "PG"
+      },
+      {
+        "name": "imDb Rating",
+        "value": "8.3"
+      },
+      {
+        "name": "Stars",
+        "value":"Pete Docter, Bob Peterson, Edward Asner, Jordan Nagai, John Ratzenberger, Christopher Plummer"
+      }
+    ]
+  },
+  {
+    "name": "Rush",
+    "children": [
+      {
+        "name": "Year",
+        "value": "(I) (2013)"
+      },
+      {
+        "name": "Genres",
+        "value": "Action, Biography, Drama"
+      },
+      {
+        "name": "Content Rating",
+        "value": "R"
+      },
+      {
+        "name": "imDb Rating",
+        "value": "8.1"
+      },
+      {
+        "name": "Stars",
+        "value":"Ron Howard, Daniel Br\u00fchl, Chris Hemsworth, Olivia Wilde, Alexandra Maria Lara"
+      }
+    ]
+  },
+  {
+    "name": "Star Wars: Episode V - The Empire Strikes Back",
+    "children": [
+      {
+        "name": "Year",
+        "value": "(1980)"
+      },
+      {
+        "name": "Genres",
+        "value": "Action, Adventure, Fantasy"
+      },
+      {
+        "name": "Content Rating",
+        "value": "PG"
+      },
+      {
+        "name": "imDb Rating",
+        "value": "8.7"
+      },
+      {
+        "name": "Stars",
+        "value":"Irvin Kershner, Mark Hamill, Harrison Ford, Carrie Fisher, Billy Dee Williams"
+      }
+    ]
+  },
+  {
+    "name": "Coco",
+    "children": [
+      {
+        "name": "Year",
+        "value": "(I) (2017)"
+      },
+      {
+        "name": "Genres",
+        "value": "Animation, Adventure, Drama"
+      },
+      {
+        "name": "Content Rating",
+        "value": "PG"
+      },
+      {
+        "name": "imDb Rating",
+        "value": "8.4"
+      },
+      {
+        "name": "Stars",
+        "value":"Lee Unkrich, Adrian Molina, Anthony Gonzalez, Gael Garc\u00eda Bernal, Benjamin Bratt, Alanna Ubach"
+      }
+    ]
+  },
+  {
+    "name": "Spotlight",
+    "children": [
+      {
+        "name": "Year",
+        "value": "(I) (2015)"
+      },
+      {
+        "name": "Genres",
+        "value": "Biography, Crime, Drama"
+      },
+      {
+        "name": "Content Rating",
+        "value": "R"
+      },
+      {
+        "name": "imDb Rating",
+        "value": "8.1"
+      },
+      {
+        "name": "Stars",
+        "value":"Tom McCarthy, Mark Ruffalo, Michael Keaton, Rachel McAdams, Liev Schreiber"
+      }
+    ]
+  },
+  {
+    "name": "Memories of Murder",
+    "children": [
+      {
+        "name": "Year",
+        "value": "(2003)"
+      },
+      {
+        "name": "Genres",
+        "value": "Crime, Drama, Mystery"
+      },
+      {
+        "name": "Content Rating",
+        "value": "Not Rated"
+      },
+      {
+        "name": "imDb Rating",
+        "value": "8.1"
+      },
+      {
+        "name": "Stars",
+        "value":"Bong Joon Ho, Song Kang-ho, Kim Sang-kyung, Roe-ha Kim, Jae-ho Song"
+      }
+    ]
+  },
+  {
+    "name": "Monsters, Inc.",
+    "children": [
+      {
+        "name": "Year",
+        "value": "(2001)"
+      },
+      {
+        "name": "Genres",
+        "value": "Animation, Adventure, Comedy"
+      },
+      {
+        "name": "Content Rating",
+        "value": "G"
+      },
+      {
+        "name": "imDb Rating",
+        "value": "8.1"
+      },
+      {
+        "name": "Stars",
+        "value":"Pete Docter, David Silverman, Lee Unkrich, Billy Crystal, John Goodman, Mary Gibbs, Steve Buscemi"
+      }
+    ]
+  },
+  {
+    "name": "Before Sunrise",
+    "children": [
+      {
+        "name": "Year",
+        "value": "(1995)"
+      },
+      {
+        "name": "Genres",
+        "value": "Drama, Romance"
+      },
+      {
+        "name": "Content Rating",
+        "value": "R"
+      },
+      {
+        "name": "imDb Rating",
+        "value": "8.1"
+      },
+      {
+        "name": "Stars",
+        "value":"Richard Linklater, Ethan Hawke, Julie Delpy, Andrea Eckert, Hanno P\u00f6schl"
+      }
+    ]
+  },
+  {
+    "name": "Dr. Strangelove or: How I Learned to Stop Worrying and Love the Bomb",
+    "children": [
+      {
+        "name": "Year",
+        "value": "(1964)"
+      },
+      {
+        "name": "Genres",
+        "value": "Comedy, War"
+      },
+      {
+        "name": "Content Rating",
+        "value": "PG"
+      },
+      {
+        "name": "imDb Rating",
+        "value": "8.4"
+      },
+      {
+        "name": "Stars",
+        "value":"Stanley Kubrick, Peter Sellers, George C. Scott, Sterling Hayden, Keenan Wynn"
+      }
+    ]
+  },
+  {
+    "name": "V for Vendetta",
+    "children": [
+      {
+        "name": "Year",
+        "value": "(2005)"
+      },
+      {
+        "name": "Genres",
+        "value": "Action, Drama, Sci-Fi"
+      },
+      {
+        "name": "Content Rating",
+        "value": "R"
+      },
+      {
+        "name": "imDb Rating",
+        "value": "8.2"
+      },
+      {
+        "name": "Stars",
+        "value":"James McTeigue, Hugo Weaving, Natalie Portman, Rupert Graves, Stephen Rea"
+      }
+    ]
+  },
+  {
+    "name": "Once Upon a Time in the West",
+    "children": [
+      {
+        "name": "Year",
+        "value": "(1968)"
+      },
+      {
+        "name": "Genres",
+        "value": "Western"
+      },
+      {
+        "name": "Content Rating",
+        "value": "PG-13"
+      },
+      {
+        "name": "imDb Rating",
+        "value": "8.5"
+      },
+      {
+        "name": "Stars",
+        "value":"Sergio Leone, Henry Fonda, Charles Bronson, Claudia Cardinale, Jason Robards"
+      }
+    ]
+  },
+  {
+    "name": "Star Wars: Episode VI - Return of the Jedi",
+    "children": [
+      {
+        "name": "Year",
+        "value": "(1983)"
+      },
+      {
+        "name": "Genres",
+        "value": "Action, Adventure, Fantasy"
+      },
+      {
+        "name": "Content Rating",
+        "value": "PG"
+      },
+      {
+        "name": "imDb Rating",
+        "value": "8.3"
+      },
+      {
+        "name": "Stars",
+        "value":"Richard Marquand, Mark Hamill, Harrison Ford, Carrie Fisher, Billy Dee Williams"
+      }
+    ]
+  },
+  {
+    "name": "Lawrence of Arabia",
+    "children": [
+      {
+        "name": "Year",
+        "value": "(1962)"
+      },
+      {
+        "name": "Genres",
+        "value": "Adventure, Biography, Drama"
+      },
+      {
+        "name": "Content Rating",
+        "value": "Approved"
+      },
+      {
+        "name": "imDb Rating",
+        "value": "8.3"
+      },
+      {
+        "name": "Stars",
+        "value":"David Lean, Peter O'Toole, Alec Guinness, Anthony Quinn, Jack Hawkins"
+      }
+    ]
+  },
+  {
+    "name": "WALLIE",
+    "children": [
+      {
+        "name": "Year",
+        "value": "(2008)"
+      },
+      {
+        "name": "Genres",
+        "value": "Animation, Adventure, Family"
+      },
+      {
+        "name": "Content Rating",
+        "value": "G"
+      },
+      {
+        "name": "imDb Rating",
+        "value": "8.4"
+      },
+      {
+        "name": "Stars",
+        "value":"Andrew Stanton, Ben Burtt, Elissa Knight, Jeff Garlin, Fred Willard"
+      }
+    ]
+  },
+  {
+    "name": "Platoon",
+    "children": [
+      {
+        "name": "Year",
+        "value": "(1986)"
+      },
+      {
+        "name": "Genres",
+        "value": "Drama, War"
+      },
+      {
+        "name": "Content Rating",
+        "value": "R"
+      },
+      {
+        "name": "imDb Rating",
+        "value": "8.1"
+      },
+      {
+        "name": "Stars",
+        "value":"Oliver Stone, Charlie Sheen, Tom Berenger, Willem Dafoe, Keith David"
+      }
+    ]
+  },
+  {
+    "name": "The Deer Hunter",
+    "children": [
+      {
+        "name": "Year",
+        "value": "(1978)"
+      },
+      {
+        "name": "Genres",
+        "value": "Drama, War"
+      },
+      {
+        "name": "Content Rating",
+        "value": "R"
+      },
+      {
+        "name": "imDb Rating",
+        "value": "8.1"
+      },
+      {
+        "name": "Stars",
+        "value":"Michael Cimino, Robert De Niro, Christopher Walken, John Cazale, John Savage"
+      }
+    ]
+  },
+  {
+    "name": "Gone with the Wind",
+    "children": [
+      {
+        "name": "Year",
+        "value": "(1939)"
+      },
+      {
+        "name": "Genres",
+        "value": "Drama, Romance, War"
+      },
+      {
+        "name": "Content Rating",
+        "value": "Passed"
+      },
+      {
+        "name": "imDb Rating",
+        "value": "8.2"
+      },
+      {
+        "name": "Stars",
+        "value":"Victor Fleming, George Cukor, Sam Wood, Clark Gable, Vivien Leigh, Thomas Mitchell, Barbara O'Neil"
+      }
+    ]
+  },
+  {
+    "name": "Room",
+    "children": [
+      {
+        "name": "Year",
+        "value": "(I) (2015)"
+      },
+      {
+        "name": "Genres",
+        "value": "Drama, Thriller"
+      },
+      {
+        "name": "Content Rating",
+        "value": "R"
+      },
+      {
+        "name": "imDb Rating",
+        "value": "8.1"
+      },
+      {
+        "name": "Stars",
+        "value":"Lenny Abrahamson, Brie Larson, Jacob Tremblay, Sean Bridgers, Wendy Crewson"
+      }
+    ]
+  },
+  {
+    "name": "Downfall",
+    "children": [
+      {
+        "name": "Year",
+        "value": "(2004)"
+      },
+      {
+        "name": "Genres",
+        "value": "Biography, Drama, History"
+      },
+      {
+        "name": "Content Rating",
+        "value": "R"
+      },
+      {
+        "name": "imDb Rating",
+        "value": "8.2"
+      },
+      {
+        "name": "Stars",
+        "value":"Oliver Hirschbiegel, Bruno Ganz, Alexandra Maria Lara, Ulrich Matthes, Juliane K\u00f6hler"
+      }
+    ]
+  },
+  {
+    "name": "Am\u00e9lie",
+    "children": [
+      {
+        "name": "Year",
+        "value": "(2001)"
+      },
+      {
+        "name": "Genres",
+        "value": "Comedy, Romance"
+      },
+      {
+        "name": "Content Rating",
+        "value": "R"
+      },
+      {
+        "name": "imDb Rating",
+        "value": "8.3"
+      },
+      {
+        "name": "Stars",
+        "value":"Jean-Pierre Jeunet, Audrey Tautou, Mathieu Kassovitz, Rufus, Lorella Cravotta"
+      }
+    ]
+  },
+  {
+    "name": "The Sound of Music",
+    "children": [
+      {
+        "name": "Year",
+        "value": "(1965)"
+      },
+      {
+        "name": "Genres",
+        "value": "Biography, Drama, Family"
+      },
+      {
+        "name": "Content Rating",
+        "value": "G"
+      },
+      {
+        "name": "imDb Rating",
+        "value": "8.1"
+      },
+      {
+        "name": "Stars",
+        "value":"Robert Wise, Julie Andrews, Christopher Plummer, Eleanor Parker, Richard Haydn"
+      }
+    ]
+  },
+  {
+    "name": "Dances with Wolves",
+    "children": [
+      {
+        "name": "Year",
+        "value": "(1990)"
+      },
+      {
+        "name": "Genres",
+        "value": "Adventure, Drama, Western"
+      },
+      {
+        "name": "Content Rating",
+        "value": "PG-13"
+      },
+      {
+        "name": "imDb Rating",
+        "value": "8.0"
+      },
+      {
+        "name": "Stars",
+        "value":"Kevin Costner, Mary McDonnell, Graham Greene, Rodney A. Grant"
+      }
+    ]
+  },
+  {
+    "name": "Lock, Stock and Two Smoking Barrels",
+    "children": [
+      {
+        "name": "Year",
+        "value": "(1998)"
+      },
+      {
+        "name": "Genres",
+        "value": "Action, Comedy, Crime"
+      },
+      {
+        "name": "Content Rating",
+        "value": "R"
+      },
+      {
+        "name": "imDb Rating",
+        "value": "8.1"
+      },
+      {
+        "name": "Stars",
+        "value":"Guy Ritchie, Jason Flemyng, Dexter Fletcher, Nick Moran, Jason Statham"
+      }
+    ]
+  },
+  {
+    "name": "Chinatown",
+    "children": [
+      {
+        "name": "Year",
+        "value": "(1974)"
+      },
+      {
+        "name": "Genres",
+        "value": "Drama, Mystery, Thriller"
+      },
+      {
+        "name": "Content Rating",
+        "value": "R"
+      },
+      {
+        "name": "imDb Rating",
+        "value": "8.2"
+      },
+      {
+        "name": "Stars",
+        "value":"Roman Polanski, Jack Nicholson, Faye Dunaway, John Huston, Perry Lopez"
+      }
+    ]
+  },
+  {
+    "name": "Aladdin",
+    "children": [
+      {
+        "name": "Year",
+        "value": "(1992)"
+      },
+      {
+        "name": "Genres",
+        "value": "Animation, Adventure, Comedy"
+      },
+      {
+        "name": "Content Rating",
+        "value": "G"
+      },
+      {
+        "name": "imDb Rating",
+        "value": "8.0"
+      },
+      {
+        "name": "Stars",
+        "value":"Ron Clements, John Musker, Scott Weinger, Robin Williams, Linda Larkin, Jonathan Freeman"
+      }
+    ]
+  },
+  {
+    "name": "Unforgiven",
+    "children": [
+      {
+        "name": "Year",
+        "value": "(1992)"
+      },
+      {
+        "name": "Genres",
+        "value": "Drama, Western"
+      },
+      {
+        "name": "Content Rating",
+        "value": "R"
+      },
+      {
+        "name": "imDb Rating",
+        "value": "8.2"
+      },
+      {
+        "name": "Stars",
+        "value":"Clint Eastwood, Gene Hackman, Morgan Freeman, Richard Harris"
+      }
+    ]
+  },
+  {
+    "name": "Groundhog Day",
+    "children": [
+      {
+        "name": "Year",
+        "value": "(1993)"
+      },
+      {
+        "name": "Genres",
+        "value": "Comedy, Drama, Fantasy"
+      },
+      {
+        "name": "Content Rating",
+        "value": "PG"
+      },
+      {
+        "name": "imDb Rating",
+        "value": "8.0"
+      },
+      {
+        "name": "Stars",
+        "value":"Harold Ramis, Bill Murray, Andie MacDowell, Chris Elliott, Stephen Tobolowsky"
+      }
+    ]
+  },
+  {
+    "name": "How to Train Your Dragon",
+    "children": [
+      {
+        "name": "Year",
+        "value": "(2010)"
+      },
+      {
+        "name": "Genres",
+        "value": "Animation, Action, Adventure"
+      },
+      {
+        "name": "Content Rating",
+        "value": "PG"
+      },
+      {
+        "name": "imDb Rating",
+        "value": "8.1"
+      },
+      {
+        "name": "Stars",
+        "value":"Dean DeBlois, Chris Sanders, Jay Baruchel, Gerard Butler, Christopher Mintz-Plasse, Craig Ferguson"
+      }
+    ]
+  },
+  {
+    "name": "12 Years a Slave",
+    "children": [
+      {
+        "name": "Year",
+        "value": "(2013)"
+      },
+      {
+        "name": "Genres",
+        "value": "Biography, Drama, History"
+      },
+      {
+        "name": "Content Rating",
+        "value": "R"
+      },
+      {
+        "name": "imDb Rating",
+        "value": "8.1"
+      },
+      {
+        "name": "Stars",
+        "value":"Steve McQueen, Chiwetel Ejiofor, Michael Kenneth Williams, Michael Fassbender, Brad Pitt"
+      }
+    ]
+  },
+  {
+    "name": "Toy Story 3",
+    "children": [
+      {
+        "name": "Year",
+        "value": "(2010)"
+      },
+      {
+        "name": "Genres",
+        "value": "Animation, Adventure, Comedy"
+      },
+      {
+        "name": "Content Rating",
+        "value": "G"
+      },
+      {
+        "name": "imDb Rating",
+        "value": "8.3"
+      },
+      {
+        "name": "Stars",
+        "value":"Lee Unkrich, Tom Hanks, Tim Allen, Joan Cusack, Ned Beatty"
+      }
+    ]
+  },
+  {
+    "name": "3 Idiots",
+    "children": [
+      {
+        "name": "Year",
+        "value": "(2009)"
+      },
+      {
+        "name": "Genres",
+        "value": "Comedy, Drama"
+      },
+      {
+        "name": "Content Rating",
+        "value": "PG-13"
+      },
+      {
+        "name": "imDb Rating",
+        "value": "8.4"
+      },
+      {
+        "name": "Stars",
+        "value":"Rajkumar Hirani, Aamir Khan, Madhavan, Mona Singh, Sharman Joshi"
+      }
+    ]
+  },
+  {
+    "name": "It's a Wonderful Life",
+    "children": [
+      {
+        "name": "Year",
+        "value": "(1946)"
+      },
+      {
+        "name": "Genres",
+        "value": "Drama, Family, Fantasy"
+      },
+      {
+        "name": "Content Rating",
+        "value": "PG"
+      },
+      {
+        "name": "imDb Rating",
+        "value": "8.6"
+      },
+      {
+        "name": "Stars",
+        "value":"Frank Capra, James Stewart, Donna Reed, Lionel Barrymore, Thomas Mitchell"
+      }
+    ]
+  },
+  {
+    "name": "Dial M for Murder",
+    "children": [
+      {
+        "name": "Year",
+        "value": "(1954)"
+      },
+      {
+        "name": "Genres",
+        "value": "Crime, Thriller"
+      },
+      {
+        "name": "Content Rating",
+        "value": "PG"
+      },
+      {
+        "name": "imDb Rating",
+        "value": "8.2"
+      },
+      {
+        "name": "Stars",
+        "value":"Alfred Hitchcock, Ray Milland, Grace Kelly, Robert Cummings, John Williams"
+      }
+    ]
+  },
+  {
+    "name": "Rear Window",
+    "children": [
+      {
+        "name": "Year",
+        "value": "(1954)"
+      },
+      {
+        "name": "Genres",
+        "value": "Mystery, Thriller"
+      },
+      {
+        "name": "Content Rating",
+        "value": "PG"
+      },
+      {
+        "name": "imDb Rating",
+        "value": "8.5"
+      },
+      {
+        "name": "Stars",
+        "value":"Alfred Hitchcock, James Stewart, Grace Kelly, Wendell Corey, Thelma Ritter"
+      }
+    ]
+  },
+  {
+    "name": "Barry Lyndon",
+    "children": [
+      {
+        "name": "Year",
+        "value": "(1975)"
+      },
+      {
+        "name": "Genres",
+        "value": "Adventure, Drama, War"
+      },
+      {
+        "name": "Content Rating",
+        "value": "PG"
+      },
+      {
+        "name": "imDb Rating",
+        "value": "8.1"
+      },
+      {
+        "name": "Stars",
+        "value":"Stanley Kubrick, Ryan O'Neal, Marisa Berenson, Patrick Magee, Hardy Kr\u00fcger"
+      }
+    ]
+  },
+  {
+    "name": "Monty Python and the Holy Grail",
+    "children": [
+      {
+        "name": "Year",
+        "value": "(1975)"
+      },
+      {
+        "name": "Genres",
+        "value": "Adventure, Comedy, Fantasy"
+      },
+      {
+        "name": "Content Rating",
+        "value": "PG"
+      },
+      {
+        "name": "imDb Rating",
+        "value": "8.2"
+      },
+      {
+        "name": "Stars",
+        "value":"Terry Gilliam, Terry Jones, Graham Chapman, John Cleese, Eric Idle"
+      }
+    ]
+  },
+  {
+    "name": "Singin' in the Rain",
+    "children": [
+      {
+        "name": "Year",
+        "value": "(1952)"
+      },
+      {
+        "name": "Genres",
+        "value": "Comedy, Musical, Romance"
+      },
+      {
+        "name": "Content Rating",
+        "value": "G"
+      },
+      {
+        "name": "imDb Rating",
+        "value": "8.3"
+      },
+      {
+        "name": "Stars",
+        "value":"Stanley Donen, Gene Kelly, Donald O'Connor, Debbie Reynolds, Jean Hagen"
+      }
+    ]
+  },
+  {
+    "name": "Citizen Kane",
+    "children": [
+      {
+        "name": "Year",
+        "value": "(1941)"
+      },
+      {
+        "name": "Genres",
+        "value": "Drama, Mystery"
+      },
+      {
+        "name": "Content Rating",
+        "value": "PG"
+      },
+      {
+        "name": "imDb Rating",
+        "value": "8.3"
+      },
+      {
+        "name": "Stars",
+        "value":"Orson Welles, Joseph Cotten, Dorothy Comingore, Agnes Moorehead"
+      }
+    ]
+  },
+  {
+    "name": "Vertigo",
+    "children": [
+      {
+        "name": "Year",
+        "value": "(1958)"
+      },
+      {
+        "name": "Genres",
+        "value": "Mystery, Romance, Thriller"
+      },
+      {
+        "name": "Content Rating",
+        "value": "PG"
+      },
+      {
+        "name": "imDb Rating",
+        "value": "8.3"
+      },
+      {
+        "name": "Stars",
+        "value":"Alfred Hitchcock, James Stewart, Kim Novak, Barbara Bel Geddes, Tom Helmore"
+      }
+    ]
+  },
+  {
+    "name": "Some Like It Hot",
+    "children": [
+      {
+        "name": "Year",
+        "value": "(1959)"
+      },
+      {
+        "name": "Genres",
+        "value": "Comedy, Music, Romance"
+      },
+      {
+        "name": "Content Rating",
+        "value": "Passed"
+      },
+      {
+        "name": "imDb Rating",
+        "value": "8.2"
+      },
+      {
+        "name": "Stars",
+        "value":"Billy Wilder, Marilyn Monroe, Tony Curtis, Jack Lemmon, George Raft"
+      }
+    ]
+  },
+  {
+    "name": "Raging Bull",
+    "children": [
+      {
+        "name": "Year",
+        "value": "(1980)"
+      },
+      {
+        "name": "Genres",
+        "value": "Biography, Drama, Sport"
+      },
+      {
+        "name": "Content Rating",
+        "value": "R"
+      },
+      {
+        "name": "imDb Rating",
+        "value": "8.1"
+      },
+      {
+        "name": "Stars",
+        "value":"Martin Scorsese, Robert De Niro, Cathy Moriarty, Joe Pesci, Frank Vincent"
+      }
+    ]
+  },
+  {
+    "name": "The Great Escape",
+    "children": [
+      {
+        "name": "Year",
+        "value": "(1963)"
+      },
+      {
+        "name": "Genres",
+        "value": "Adventure, Drama, History"
+      },
+      {
+        "name": "Content Rating",
+        "value": "Approved"
+      },
+      {
+        "name": "imDb Rating",
+        "value": "8.2"
+      },
+      {
+        "name": "Stars",
+        "value":"John Sturges, Steve McQueen, James Garner, Richard Attenborough, Charles Bronson"
+      }
+    ]
+  },
+  {
+    "name": "Gran Torino",
+    "children": [
+      {
+        "name": "Year",
+        "value": "(2008)"
+      },
+      {
+        "name": "Genres",
+        "value": "Drama"
+      },
+      {
+        "name": "Content Rating",
+        "value": "R"
+      },
+      {
+        "name": "imDb Rating",
+        "value": "8.1"
+      },
+      {
+        "name": "Stars",
+        "value":"Clint Eastwood, Bee Vang, Christopher Carley, Ahney Her"
+      }
+    ]
+  },
+  {
+    "name": "Million Dollar Baby",
+    "children": [
+      {
+        "name": "Year",
+        "value": "(2004)"
+      },
+      {
+        "name": "Genres",
+        "value": "Drama, Sport"
+      },
+      {
+        "name": "Content Rating",
+        "value": "PG-13"
+      },
+      {
+        "name": "imDb Rating",
+        "value": "8.1"
+      },
+      {
+        "name": "Stars",
+        "value":"Clint Eastwood, Hilary Swank, Morgan Freeman, Jay Baruchel"
+      }
+    ]
+  },
+  {
+    "name": "To Kill a Mockingbird",
+    "children": [
+      {
+        "name": "Year",
+        "value": "(1962)"
+      },
+      {
+        "name": "Genres",
+        "value": "Crime, Drama"
+      },
+      {
+        "name": "Content Rating",
+        "value": "Approved"
+      },
+      {
+        "name": "imDb Rating",
+        "value": "8.3"
+      },
+      {
+        "name": "Stars",
+        "value":"Robert Mulligan, Gregory Peck, John Megna, Frank Overton, Rosemary Murphy"
+      }
+    ]
+  },
+  {
+    "name": "Hachi: A Dog's Tale",
+    "children": [
+      {
+        "name": "Year",
+        "value": "(2009)"
+      },
+      {
+        "name": "Genres",
+        "value": "Biography, Drama, Family"
+      },
+      {
+        "name": "Content Rating",
+        "value": "G"
+      },
+      {
+        "name": "imDb Rating",
+        "value": "8.1"
+      },
+      {
+        "name": "Stars",
+        "value":"Lasse Hallstr\u00f6m, Richard Gere, Joan Allen, Cary-Hiroyuki Tagawa, Sarah Roemer"
+      }
+    ]
+  },
+  {
+    "name": "Metropolis",
+    "children": [
+      {
+        "name": "Year",
+        "value": "(1927)"
+      },
+      {
+        "name": "Genres",
+        "value": "Drama, Sci-Fi"
+      },
+      {
+        "name": "Content Rating",
+        "value": "Not Rated"
+      },
+      {
+        "name": "imDb Rating",
+        "value": "8.3"
+      },
+      {
+        "name": "Stars",
+        "value":"Fritz Lang, Brigitte Helm, Alfred Abel, Gustav Fr\u00f6hlich, Rudolf Klein-Rogge"
+      }
+    ]
+  },
+  {
+    "name": "For a Few Dollars More",
+    "children": [
+      {
+        "name": "Year",
+        "value": "(1965)"
+      },
+      {
+        "name": "Genres",
+        "value": "Drama, Western"
+      },
+      {
+        "name": "Content Rating",
+        "value": "R"
+      },
+      {
+        "name": "imDb Rating",
+        "value": "8.2"
+      },
+      {
+        "name": "Stars",
+        "value":"Sergio Leone, Clint Eastwood, Lee Van Cleef, Gian Maria Volont\u00e8, Mara Krupp"
+      }
+    ]
+  },
+  {
+    "name": "The Iron Giant",
+    "children": [
+      {
+        "name": "Year",
+        "value": "(1999)"
+      },
+      {
+        "name": "Genres",
+        "value": "Animation, Action, Adventure"
+      },
+      {
+        "name": "Content Rating",
+        "value": "PG"
+      },
+      {
+        "name": "imDb Rating",
+        "value": "8.1"
+      },
+      {
+        "name": "Stars",
+        "value":"Brad Bird, Eli Marienthal, Harry Connick Jr., Jennifer Aniston, Vin Diesel"
+      }
+    ]
+  },
+  {
+    "name": "North by Northwest",
+    "children": [
+      {
+        "name": "Year",
+        "value": "(1959)"
+      },
+      {
+        "name": "Genres",
+        "value": "Action, Adventure, Mystery"
+      },
+      {
+        "name": "Content Rating",
+        "value": "Approved"
+      },
+      {
+        "name": "imDb Rating",
+        "value": "8.3"
+      },
+      {
+        "name": "Stars",
+        "value":"Alfred Hitchcock, Cary Grant, Eva Marie Saint, James Mason, Jessie Royce Landis"
+      }
+    ]
+  },
+  {
+    "name": "Before Sunset",
+    "children": [
+      {
+        "name": "Year",
+        "value": "(2004)"
+      },
+      {
+        "name": "Genres",
+        "value": "Drama, Romance"
+      },
+      {
+        "name": "Content Rating",
+        "value": "R"
+      },
+      {
+        "name": "imDb Rating",
+        "value": "8.1"
+      },
+      {
+        "name": "Stars",
+        "value":"Richard Linklater, Ethan Hawke, Julie Delpy, Vernon Dobtcheff, Louise Lemoine Torr\u00e8s"
+      }
+    ]
+  },
+  {
+    "name": "The Sting",
+    "children": [
+      {
+        "name": "Year",
+        "value": "(1973)"
+      },
+      {
+        "name": "Genres",
+        "value": "Comedy, Crime, Drama"
+      },
+      {
+        "name": "Content Rating",
+        "value": "PG"
+      },
+      {
+        "name": "imDb Rating",
+        "value": "8.3"
+      },
+      {
+        "name": "Stars",
+        "value":"George Roy Hill, Paul Newman, Robert Redford, Robert Shaw, Charles Durning"
+      }
+    ]
+  },
+  {
+    "name": "The Elephant Man",
+    "children": [
+      {
+        "name": "Year",
+        "value": "(1980)"
+      },
+      {
+        "name": "Genres",
+        "value": "Biography, Drama"
+      },
+      {
+        "name": "Content Rating",
+        "value": "PG"
+      },
+      {
+        "name": "imDb Rating",
+        "value": "8.2"
+      },
+      {
+        "name": "Stars",
+        "value":"David Lynch, Anthony Hopkins, John Hurt, Anne Bancroft, John Gielgud"
+      }
+    ]
+  },
+  {
+    "name": "Sunset Blvd.",
+    "children": [
+      {
+        "name": "Year",
+        "value": "(1950)"
+      },
+      {
+        "name": "Genres",
+        "value": "Drama, Film-Noir"
+      },
+      {
+        "name": "Content Rating",
+        "value": "Passed"
+      },
+      {
+        "name": "imDb Rating",
+        "value": "8.4"
+      },
+      {
+        "name": "Stars",
+        "value":"Billy Wilder, William Holden, Gloria Swanson, Erich von Stroheim, Nancy Olson"
+      }
+    ]
+  },
+  {
+    "name": "Life of Brian",
+    "children": [
+      {
+        "name": "Year",
+        "value": "(1979)"
+      },
+      {
+        "name": "Genres",
+        "value": "Comedy"
+      },
+      {
+        "name": "Content Rating",
+        "value": "R"
+      },
+      {
+        "name": "imDb Rating",
+        "value": "8.0"
+      },
+      {
+        "name": "Stars",
+        "value":"Terry Jones, Graham Chapman, John Cleese, Michael Palin, Terry Gilliam"
+      }
+    ]
+  },
+  {
+    "name": "Ben-Hur",
+    "children": [
+      {
+        "name": "Year",
+        "value": "(1959)"
+      },
+      {
+        "name": "Genres",
+        "value": "Adventure, Drama"
+      },
+      {
+        "name": "Content Rating",
+        "value": "G"
+      },
+      {
+        "name": "imDb Rating",
+        "value": "8.1"
+      },
+      {
+        "name": "Stars",
+        "value":"William Wyler, Charlton Heston, Jack Hawkins, Stephen Boyd, Haya Harareet"
+      }
+    ]
+  },
+  {
+    "name": "Paths of Glory",
+    "children": [
+      {
+        "name": "Year",
+        "value": "(1957)"
+      },
+      {
+        "name": "Genres",
+        "value": "Drama, War"
+      },
+      {
+        "name": "Content Rating",
+        "value": "Approved"
+      },
+      {
+        "name": "imDb Rating",
+        "value": "8.4"
+      },
+      {
+        "name": "Stars",
+        "value":"Stanley Kubrick, Kirk Douglas, Ralph Meeker, Adolphe Menjou, George Macready"
+      }
+    ]
+  },
+  {
+    "name": "The Third Man",
+    "children": [
+      {
+        "name": "Year",
+        "value": "(1949)"
+      },
+      {
+        "name": "Genres",
+        "value": "Film-Noir, Mystery, Thriller"
+      },
+      {
+        "name": "Content Rating",
+        "value": "Approved"
+      },
+      {
+        "name": "imDb Rating",
+        "value": "8.1"
+      },
+      {
+        "name": "Stars",
+        "value":"Carol Reed, Orson Welles, Joseph Cotten, Alida Valli, Trevor Howard"
+      }
+    ]
+  },
+  {
+    "name": "The Apartment",
+    "children": [
+      {
+        "name": "Year",
+        "value": "(1960)"
+      },
+      {
+        "name": "Genres",
+        "value": "Comedy, Drama, Romance"
+      },
+      {
+        "name": "Content Rating",
+        "value": "Approved"
+      },
+      {
+        "name": "imDb Rating",
+        "value": "8.3"
+      },
+      {
+        "name": "Stars",
+        "value":"Billy Wilder, Jack Lemmon, Shirley MacLaine, Fred MacMurray, Ray Walston"
+      }
+    ]
+  },
+  {
+    "name": "Judgment at Nuremberg",
+    "children": [
+      {
+        "name": "Year",
+        "value": "(1961)"
+      },
+      {
+        "name": "Genres",
+        "value": "Drama, War"
+      },
+      {
+        "name": "Content Rating",
+        "value": "Approved"
+      },
+      {
+        "name": "imDb Rating",
+        "value": "8.3"
+      },
+      {
+        "name": "Stars",
+        "value":"Stanley Kramer, Spencer Tracy, Burt Lancaster, Richard Widmark, Marlene Dietrich"
+      }
+    ]
+  },
+  {
+    "name": "The Bridge on the River Kwai",
+    "children": [
+      {
+        "name": "Year",
+        "value": "(1957)"
+      },
+      {
+        "name": "Genres",
+        "value": "Adventure, Drama, War"
+      },
+      {
+        "name": "Content Rating",
+        "value": "PG"
+      },
+      {
+        "name": "imDb Rating",
+        "value": "8.1"
+      },
+      {
+        "name": "Stars",
+        "value":"David Lean, William Holden, Alec Guinness, Jack Hawkins, Sessue Hayakawa"
+      }
+    ]
+  },
+  {
+    "name": "Persona",
+    "children": [
+      {
+        "name": "Year",
+        "value": "(1966)"
+      },
+      {
+        "name": "Genres",
+        "value": "Drama, Thriller"
+      },
+      {
+        "name": "Content Rating",
+        "value": "Not Rated"
+      },
+      {
+        "name": "imDb Rating",
+        "value": "8.1"
+      },
+      {
+        "name": "Stars",
+        "value":"Ingmar Bergman, Bibi Andersson, Liv Ullmann, Margaretha Krook, Gunnar Bj\u00f6rnstrand"
+      }
+    ]
+  },
+  {
+    "name": "Witness for the Prosecution",
+    "children": [
+      {
+        "name": "Year",
+        "value": "(1957)"
+      },
+      {
+        "name": "Genres",
+        "value": "Crime, Drama, Mystery"
+      },
+      {
+        "name": "Content Rating",
+        "value": "Approved"
+      },
+      {
+        "name": "imDb Rating",
+        "value": "8.4"
+      },
+      {
+        "name": "Stars",
+        "value":"Billy Wilder, Tyrone Power, Marlene Dietrich, Charles Laughton, Elsa Lanchester"
+      }
+    ]
+  },
+  {
+    "name": "Network",
+    "children": [
+      {
+        "name": "Year",
+        "value": "(1976)"
+      },
+      {
+        "name": "Genres",
+        "value": "Drama"
+      },
+      {
+        "name": "Content Rating",
+        "value": "R"
+      },
+      {
+        "name": "imDb Rating",
+        "value": "8.1"
+      },
+      {
+        "name": "Stars",
+        "value":"Sidney Lumet, Faye Dunaway, William Holden, Peter Finch, Robert Duvall"
+      }
+    ]
+  },
+  {
+    "name": "In the Name of the Father",
+    "children": [
+      {
+        "name": "Year",
+        "value": "(1993)"
+      },
+      {
+        "name": "Genres",
+        "value": "Biography, Crime, Drama"
+      },
+      {
+        "name": "Content Rating",
+        "value": "R"
+      },
+      {
+        "name": "imDb Rating",
+        "value": "8.1"
+      },
+      {
+        "name": "Stars",
+        "value":"Jim Sheridan, Daniel Day-Lewis, Pete Postlethwaite, Alison Crosbie, Philip King"
+      }
+    ]
+  },
+  {
+    "name": "Dangal",
+    "children": [
+      {
+        "name": "Year",
+        "value": "(2016)"
+      },
+      {
+        "name": "Genres",
+        "value": "Action, Biography, Drama"
+      },
+      {
+        "name": "Content Rating",
+        "value": "Not Rated"
+      },
+      {
+        "name": "imDb Rating",
+        "value": "8.3"
+      },
+      {
+        "name": "Stars",
+        "value":"Nitesh Tiwari, Aamir Khan, Sakshi Tanwar, Fatima Sana Shaikh, Sanya Malhotra"
+      }
+    ]
+  },
+  {
+    "name": "Double Indemnity",
+    "children": [
+      {
+        "name": "Year",
+        "value": "(1944)"
+      },
+      {
+        "name": "Genres",
+        "value": "Crime, Drama, Film-Noir"
+      },
+      {
+        "name": "Content Rating",
+        "value": "Passed"
+      },
+      {
+        "name": "imDb Rating",
+        "value": "8.3"
+      },
+      {
+        "name": "Stars",
+        "value":"Billy Wilder, Fred MacMurray, Barbara Stanwyck, Edward G. Robinson, Byron Barr"
+      }
+    ]
+  },
+  {
+    "name": "Hotel Rwanda",
+    "children": [
+      {
+        "name": "Year",
+        "value": "(2004)"
+      },
+      {
+        "name": "Genres",
+        "value": "Biography, Drama, History"
+      },
+      {
+        "name": "Content Rating",
+        "value": "PG-13"
+      },
+      {
+        "name": "imDb Rating",
+        "value": "8.1"
+      },
+      {
+        "name": "Stars",
+        "value":"Terry George, Don Cheadle, Sophie Okonedo, Joaquin Phoenix, Xolani Mali"
+      }
+    ]
+  },
+  {
+    "name": "On the Waterfront",
+    "children": [
+      {
+        "name": "Year",
+        "value": "(1954)"
+      },
+      {
+        "name": "Genres",
+        "value": "Crime, Drama, Thriller"
+      },
+      {
+        "name": "Content Rating",
+        "value": "Approved"
+      },
+      {
+        "name": "imDb Rating",
+        "value": "8.1"
+      },
+      {
+        "name": "Stars",
+        "value":"Elia Kazan, Marlon Brando, Karl Malden, Lee J. Cobb, Rod Steiger"
+      }
+    ]
+  },
+  {
+    "name": "Ikiru",
+    "children": [
+      {
+        "name": "Year",
+        "value": "(1952)"
+      },
+      {
+        "name": "Genres",
+        "value": "Drama"
+      },
+      {
+        "name": "Content Rating",
+        "value": "Not Rated"
+      },
+      {
+        "name": "imDb Rating",
+        "value": "8.3"
+      },
+      {
+        "name": "Stars",
+        "value":"Akira Kurosawa, Takashi Shimura, Nobuo Kaneko, Shin'ichi Himori, Haruo Tanaka"
+      }
+    ]
+  },
+  {
+    "name": "The Great Dictator",
+    "children": [
+      {
+        "name": "Year",
+        "value": "(1940)"
+      },
+      {
+        "name": "Genres",
+        "value": "Comedy, Drama, War"
+      },
+      {
+        "name": "Content Rating",
+        "value": "G"
+      },
+      {
+        "name": "imDb Rating",
+        "value": "8.4"
+      },
+      {
+        "name": "Stars",
+        "value":"Charles Chaplin, Paulette Goddard, Jack Oakie, Reginald Gardiner"
+      }
+    ]
+  },
+  {
+    "name": "It Happened One Night",
+    "children": [
+      {
+        "name": "Year",
+        "value": "(1934)"
+      },
+      {
+        "name": "Genres",
+        "value": "Comedy, Romance"
+      },
+      {
+        "name": "Content Rating",
+        "value": "Passed"
+      },
+      {
+        "name": "imDb Rating",
+        "value": "8.1"
+      },
+      {
+        "name": "Stars",
+        "value":"Frank Capra, Clark Gable, Claudette Colbert, Walter Connolly, Roscoe Karns"
+      }
+    ]
+  },
+  {
+    "name": "Rebecca",
+    "children": [
+      {
+        "name": "Year",
+        "value": "(1940)"
+      },
+      {
+        "name": "Genres",
+        "value": "Drama, Film-Noir, Mystery"
+      },
+      {
+        "name": "Content Rating",
+        "value": "Approved"
+      },
+      {
+        "name": "imDb Rating",
+        "value": "8.1"
+      },
+      {
+        "name": "Stars",
+        "value":"Alfred Hitchcock, Laurence Olivier, Joan Fontaine, George Sanders, Judith Anderson"
+      }
+    ]
+  },
+  {
+    "name": "Mary and Max",
+    "children": [
+      {
+        "name": "Year",
+        "value": "(2009)"
+      },
+      {
+        "name": "Genres",
+        "value": "Animation, Comedy, Drama"
+      },
+      {
+        "name": "Content Rating",
+        "value": "Not Rated"
+      },
+      {
+        "name": "imDb Rating",
+        "value": "8.1"
+      },
+      {
+        "name": "Stars",
+        "value":"Adam Elliot, Toni Collette, Philip Seymour Hoffman, Eric Bana, Barry Humphries"
+      }
+    ]
+  },
+  {
+    "name": "All About Eve",
+    "children": [
+      {
+        "name": "Year",
+        "value": "(1950)"
+      },
+      {
+        "name": "Genres",
+        "value": "Drama"
+      },
+      {
+        "name": "Content Rating",
+        "value": "Passed"
+      },
+      {
+        "name": "imDb Rating",
+        "value": "8.2"
+      },
+      {
+        "name": "Stars",
+        "value":"Joseph L. Mankiewicz, Bette Davis, Anne Baxter, George Sanders, Celeste Holm"
+      }
+    ]
+  },
+  {
+    "name": "Klaus",
+    "children": [
+      {
+        "name": "Year",
+        "value": "(2019)"
+      },
+      {
+        "name": "Genres",
+        "value": "Animation, Adventure, Comedy"
+      },
+      {
+        "name": "Content Rating",
+        "value": "PG"
+      },
+      {
+        "name": "imDb Rating",
+        "value": "8.2"
+      },
+      {
+        "name": "Stars",
+        "value":"Sergio Pablos, Carlos Mart\u00ednez L\u00f3pez, Jason Schwartzman, J.K. Simmons, Rashida Jones, Will Sasso"
+      }
+    ]
+  },
+  {
+    "name": "Like Stars on Earth",
+    "children": [
+      {
+        "name": "Year",
+        "value": "(2007)"
+      },
+      {
+        "name": "Genres",
+        "value": "Drama, Family"
+      },
+      {
+        "name": "Content Rating",
+        "value": "PG"
+      },
+      {
+        "name": "imDb Rating",
+        "value": "8.3"
+      },
+      {
+        "name": "Stars",
+        "value":"Aamir Khan, Amole Gupte, Darsheel Safary, Tanay Chheda, Sachet Engineer"
+      }
+    ]
+  },
+  {
+    "name": "The Best Years of Our Lives",
+    "children": [
+      {
+        "name": "Year",
+        "value": "(1946)"
+      },
+      {
+        "name": "Genres",
+        "value": "Drama, Romance, War"
+      },
+      {
+        "name": "Content Rating",
+        "value": "Approved"
+      },
+      {
+        "name": "imDb Rating",
+        "value": "8.1"
+      },
+      {
+        "name": "Stars",
+        "value":"William Wyler, Myrna Loy, Dana Andrews, Fredric March, Teresa Wright"
+      }
+    ]
+  },
+  {
+    "name": "The 400 Blows",
+    "children": [
+      {
+        "name": "Year",
+        "value": "(1959)"
+      },
+      {
+        "name": "Genres",
+        "value": "Crime, Drama"
+      },
+      {
+        "name": "Content Rating",
+        "value": "Not Rated"
+      },
+      {
+        "name": "imDb Rating",
+        "value": "8.1"
+      },
+      {
+        "name": "Stars",
+        "value":"Fran\u00e7ois Truffaut, Jean-Pierre L\u00e9aud, Albert R\u00e9my, Claire Maurier, Guy Decomble"
+      }
+    ]
+  },
+  {
+    "name": "The Grapes of Wrath",
+    "children": [
+      {
+        "name": "Year",
+        "value": "(1940)"
+      },
+      {
+        "name": "Genres",
+        "value": "Drama"
+      },
+      {
+        "name": "Content Rating",
+        "value": "Passed"
+      },
+      {
+        "name": "imDb Rating",
+        "value": "8.1"
+      },
+      {
+        "name": "Stars",
+        "value":"John Ford, Henry Fonda, Jane Darwell, John Carradine, Charley Grapewin"
+      }
+    ]
+  },
+  {
+    "name": "Modern Times",
+    "children": [
+      {
+        "name": "Year",
+        "value": "(1936)"
+      },
+      {
+        "name": "Genres",
+        "value": "Comedy, Drama, Romance"
+      },
+      {
+        "name": "Content Rating",
+        "value": "G"
+      },
+      {
+        "name": "imDb Rating",
+        "value": "8.5"
+      },
+      {
+        "name": "Stars",
+        "value":"Charles Chaplin, Paulette Goddard, Henry Bergman, Tiny Sandford"
+      }
+    ]
+  },
+  {
+    "name": "Tokyo Story",
+    "children": [
+      {
+        "name": "Year",
+        "value": "(1953)"
+      },
+      {
+        "name": "Genres",
+        "value": "Drama"
+      },
+      {
+        "name": "Content Rating",
+        "value": "Not Rated"
+      },
+      {
+        "name": "imDb Rating",
+        "value": "8.2"
+      },
+      {
+        "name": "Stars",
+        "value":"Yasujir\u00f4 Ozu, Chish\u00fb Ry\u00fb, Chieko Higashiyama, S\u00f4 Yamamura, Setsuko Hara"
+      }
+    ]
+  },
+  {
+    "name": "Bicycle Thieves",
+    "children": [
+      {
+        "name": "Year",
+        "value": "(1948)"
+      },
+      {
+        "name": "Genres",
+        "value": "Drama"
+      },
+      {
+        "name": "Content Rating",
+        "value": "Not Rated"
+      },
+      {
+        "name": "imDb Rating",
+        "value": "8.3"
+      },
+      {
+        "name": "Stars",
+        "value":"Vittorio De Sica, Lamberto Maggiorani, Enzo Staiola, Lianella Carell, Elena Altieri"
+      }
+    ]
+  },
+  {
+    "name": "City Lights",
+    "children": [
+      {
+        "name": "Year",
+        "value": "(1931)"
+      },
+      {
+        "name": "Genres",
+        "value": "Comedy, Drama, Romance"
+      },
+      {
+        "name": "Content Rating",
+        "value": "G"
+      },
+      {
+        "name": "imDb Rating",
+        "value": "8.5"
+      },
+      {
+        "name": "Stars",
+        "value":"Charles Chaplin, Virginia Cherrill, Florence Lee, Harry Myers"
+      }
+    ]
+  },
+  {
+    "name": "The Treasure of the Sierra Madre",
+    "children": [
+      {
+        "name": "Year",
+        "value": "(1948)"
+      },
+      {
+        "name": "Genres",
+        "value": "Adventure, Drama, Western"
+      },
+      {
+        "name": "Content Rating",
+        "value": "Passed"
+      },
+      {
+        "name": "imDb Rating",
+        "value": "8.2"
+      },
+      {
+        "name": "Stars",
+        "value":"John Huston, Humphrey Bogart, Walter Huston, Tim Holt, Bruce Bennett"
+      }
+    ]
+  },
+  {
+    "name": "The Wages of Fear",
+    "children": [
+      {
+        "name": "Year",
+        "value": "(1953)"
+      },
+      {
+        "name": "Genres",
+        "value": "Adventure, Drama, Thriller"
+      },
+      {
+        "name": "Content Rating",
+        "value": "Not Rated"
+      },
+      {
+        "name": "imDb Rating",
+        "value": "8.2"
+      },
+      {
+        "name": "Stars",
+        "value":"Henri-Georges Clouzot, Yves Montand, Charles Vanel, Peter van Eyck, Folco Lulli"
+      }
+    ]
+  },
+  {
+    "name": "To Be or Not to Be",
+    "children": [
+      {
+        "name": "Year",
+        "value": "(1942)"
+      },
+      {
+        "name": "Genres",
+        "value": "Comedy, Romance, War"
+      },
+      {
+        "name": "Content Rating",
+        "value": "Passed"
+      },
+      {
+        "name": "imDb Rating",
+        "value": "8.2"
+      },
+      {
+        "name": "Stars",
+        "value":"Ernst Lubitsch, Carole Lombard, Jack Benny, Robert Stack, Felix Bressart"
+      }
+    ]
+  },
+  {
+    "name": "The Battle of Algiers",
+    "children": [
+      {
+        "name": "Year",
+        "value": "(1966)"
+      },
+      {
+        "name": "Genres",
+        "value": "Drama, War"
+      },
+      {
+        "name": "Content Rating",
+        "value": "Not Rated"
+      },
+      {
+        "name": "imDb Rating",
+        "value": "8.1"
+      },
+      {
+        "name": "Stars",
+        "value":"Gillo Pontecorvo, Brahim Hadjadj, Jean Martin, Yacef Saadi, Samia Kerbash"
+      }
+    ]
+  },
+  {
+    "name": "The Kid",
+    "children": [
+      {
+        "name": "Year",
+        "value": "(1921)"
+      },
+      {
+        "name": "Genres",
+        "value": "Comedy, Drama, Family"
+      },
+      {
+        "name": "Content Rating",
+        "value": "Passed"
+      },
+      {
+        "name": "imDb Rating",
+        "value": "8.3"
+      },
+      {
+        "name": "Stars",
+        "value":"Charles Chaplin, Edna Purviance, Jackie Coogan, Carl Miller"
+      }
+    ]
+  },
+  {
+    "name": "Mr. Smith Goes to Washington",
+    "children": [
+      {
+        "name": "Year",
+        "value": "(1939)"
+      },
+      {
+        "name": "Genres",
+        "value": "Comedy, Drama"
+      },
+      {
+        "name": "Content Rating",
+        "value": "Passed"
+      },
+      {
+        "name": "imDb Rating",
+        "value": "8.1"
+      },
+      {
+        "name": "Stars",
+        "value":"Frank Capra, James Stewart, Jean Arthur, Claude Rains, Edward Arnold"
+      }
+    ]
+  },
+  {
+    "name": "The General",
+    "children": [
+      {
+        "name": "Year",
+        "value": "(1926)"
+      },
+      {
+        "name": "Genres",
+        "value": "Action, Adventure, Comedy"
+      },
+      {
+        "name": "Content Rating",
+        "value": "Passed"
+      },
+      {
+        "name": "imDb Rating",
+        "value": "8.1"
+      },
+      {
+        "name": "Stars",
+        "value":"Clyde Bruckman, Buster Keaton, Marion Mack, Glen Cavender, Jim Farley"
+      }
+    ]
+  },
+  {
+    "name": "Sherlock Jr.",
+    "children": [
+      {
+        "name": "Year",
+        "value": "(1924)"
+      },
+      {
+        "name": "Genres",
+        "value": "Action, Comedy, Romance"
+      },
+      {
+        "name": "Content Rating",
+        "value": "Passed"
+      },
+      {
+        "name": "imDb Rating",
+        "value": "8.2"
+      },
+      {
+        "name": "Stars",
+        "value":"Buster Keaton, Kathryn McGuire, Joe Keaton, Erwin Connelly"
+      }
+    ]
+  },
+  {
+    "name": "The Gold Rush",
+    "children": [
+      {
+        "name": "Year",
+        "value": "(1925)"
+      },
+      {
+        "name": "Genres",
+        "value": "Adventure, Comedy, Drama"
+      },
+      {
+        "name": "Content Rating",
+        "value": "Passed"
+      },
+      {
+        "name": "imDb Rating",
+        "value": "8.1"
+      },
+      {
+        "name": "Stars",
+        "value":"Charles Chaplin, Mack Swain, Tom Murray, Henry Bergman"
+      }
+    ]
+  }]
+}
