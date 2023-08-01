@@ -1,0 +1,59 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  margin: 1rem;
+}
+
+select {
+  margin-bottom: 10px;
+  padding: 5px;
+  font-size: 14px;
+  border-radius: 5px;
+}
+
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  flex-direction: column;
+  width: 100%;
+}
+
+.chart {
+  width: 100%;
+  margin-bottom: 40px;
+}
+
+.center{
+  text-align: center;
+}
+#genre-pie-chart{
+ max-width: 500px;
+ margin: auto;
+}
+
+/* style.css */
+
+.movie-details {
+  width: 100%;
+}
+
+#movies-table {
+  max-width: 100vw;
+  width: 100%;
+  border-collapse: collapse;
+  border: 1px solid #ccc;
+}
+
+#movies-table th,
+#movies-table td {
+  border: 1px solid #ccc;
+  padding: 8px;
+  text-align: left;
+}
+
+#movies-table th {
+  background-color: #f2f2f2;
+  font-weight: bold;
+}
