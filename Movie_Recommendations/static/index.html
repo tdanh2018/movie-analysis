@@ -2,13 +2,17 @@
 <html>
 <head>
     <title>Movie Recommender</title>
+    <link rel="stylesheet" href="//code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
     <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
 </head>
 <body>
 
-<h1>Enter Movie Title for Recommendations</h1>
+<h1>Enter Movie Titles for Recommendations</h1>
 
-<input type="text" id="movie_title" placeholder="Movie Title">
+<input type="text" id="movie_title1" placeholder="Movie Title 1">
+<input type="text" id="movie_title2" placeholder="Movie Title 2">
+<input type="text" id="movie_title3" placeholder="Movie Title 3">
 <button id="get_recommendations">Get Recommendations</button>
 
 <h2>Recommended Movies:</h2>
@@ -16,25 +20,42 @@
 </ul>
 
 <script>
-$("#get_recommendations").click(function() {
-    const title = $("#movie_title").val();
-    $.ajax({
-        url: "/recommend",
-        method: "POST",
-        contentType: "application/json",
-        data: JSON.stringify({ "title": title }),
-        success: function(data) {
-            $("#recommendations_list").empty();
-            data.recommendations.forEach(function(movie) {
-                $("#recommendations_list").append("<li>" + movie + "</li>");
-            });
-        },
-        error: function(error) {
-            alert("Error: " + error.responseJSON.error);
-        }
+$(document).ready(function() {
+    let all_movies = [];
+    $.get("/all_movies", function(data) {
+        all_movies = data.all_movies;
+        $("#movie_title1, #movie_title2, #movie_title3").autocomplete({
+            source: all_movies,
+            minLength: 2  // Trigger request with at least 2 characters
+        });
+    });
+
+    $("#get_recommendations").click(function() {
+        const title1 = $("#movie_title1").val();
+        const title2 = $("#movie_title2").val();
+        const title3 = $("#movie_title3").val();
+        const titles = [title1, title2, title3];
+
+        $.ajax({
+            url: "/recommend",
+            type: "POST",
+            contentType: "application/json",
+            data: JSON.stringify({ "titles": titles }),
+            success: function(data) {
+                $("#recommendations_list").empty();
+                data.recommendations.forEach(function(movie) {
+                    $("#recommendations_list").append("<li>" + movie + "</li>");
+                });
+            },
+            error: function(error) {
+                alert("Error: " + error.responseJSON.error);
+            }
+        });
     });
 });
 </script>
 
 </body>
 </html>
+
+
