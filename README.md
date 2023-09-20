@@ -15,5 +15,5 @@ Project 4:
 
 To launch our website, Please launch live server for index.html in HTML Format folder. 
 
-To launch our recommending engine, Please launch terminal to launch app.py
+To launch our recommending engine, Please launch terminal to launch app.py in Movie_Recommendations_wo API Folder. 
 
