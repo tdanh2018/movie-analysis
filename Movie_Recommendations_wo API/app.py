@@ -1,4 +1,4 @@
-from flask import Flask, request, jsonify
+from flask import Flask, request, jsonify, render_template
 from sklearn.neighbors import NearestNeighbors
 from sklearn.preprocessing import LabelEncoder
 from pathlib import Path
@@ -38,7 +38,7 @@ def get_recommendations(titles):
 
 @app.route('/')
 def index():
-    return app.send_static_file('index.html')
+    return app.send_static_file('movierec.html')
 
 @app.route('/search_movies', methods=['GET'])
 def search_movies():
@@ -58,7 +58,7 @@ def recommend():
         return jsonify({'recommendations': recommendations})
     except Exception as e:
         return jsonify({'error': str(e)}), 415
+    
 
 if __name__ == '__main__':
     app.run(debug=True)
-

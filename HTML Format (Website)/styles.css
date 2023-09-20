@@ -1,0 +1,239 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f4f4f4;
+}
+
+h1 {
+  color: #333;
+  text-align: center;
+  margin-top: 100px;
+}
+
+.filter-container {
+  display: flex;
+  justify-content: center;
+  margin: 20px 0;
+}
+
+#sort-filter {
+  padding: 5px 10px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+}
+
+#movies-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.movie-card {
+  width: 200px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  margin: 10px;
+  padding: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  transition: all 0.3s ease-in-out;
+}
+
+.movie-card:hover {
+  transform: scale(1.05);
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+}
+
+.movie-title {
+  margin: 10px 0;
+  font-size: 15px;
+  text-align: center;
+}
+
+.movie-poster {
+  width: 100%;
+  height: auto;
+}
+
+.movie-rating {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 10px;
+}
+
+.star {
+  display: inline-block;
+  width: 20px;
+  height: 20px;
+  fill: #ff0;
+  margin-right: 5px;
+  filter: drop-shadow(0px 0px 3px #333);
+}
+
+.star::after {
+  content: "";
+  position: absolute;
+  top: -10px;
+  left: -15px;
+  width: 0;
+  height: 0;
+  border-right: 15px solid transparent;
+  border-bottom: 10px solid #ff0;
+  border-left: 15px solid transparent;
+  transform: rotate(-35deg);
+}
+
+.star::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: -15px;
+  width: 0;
+  height: 0;
+  border-right: 15px solid transparent;
+  border-bottom: 10px solid #ff0;
+  border-left: 15px solid transparent;
+  transform: rotate(35deg);
+}
+
+/* Style for awards page */
+#awards-container {
+  width: 80%;
+  margin: 20px auto;
+  padding: 20px;
+  border: 1px solid #333;
+  border-radius: 10px;
+  background-color: #fff;
+  box-shadow: 0px 0px 20px rgba(0,0,0,0.1);
+}
+
+.award-item {
+  display: flex;
+  align-items: center;
+  margin: 10px 0;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  background-color: #f9f9f9;
+}
+
+.award-image {
+  width: 50px;
+  height: auto;
+  margin-right: 10px;
+}
+
+.award-title {
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+.award-for, .award-description {
+  font-size: 0.9em;
+  margin-bottom: 3px;
+}
+
+#back-button-top, #back-button-bottom {
+  display: block;
+  width: 100px;
+  margin: 20px auto;
+  padding: 10px;
+  border: none;
+  background-color: #333;
+  color: #fff;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+#back-button-top:hover, #back-button-bottom:hover {
+  background-color: #444;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  box-shadow: 0px 0px 20px rgba(0,0,0,0.1);
+}
+
+th, td {
+  padding: 10px;
+  border: 1px solid #ccc;
+  text-align: left;
+}
+
+thead {
+  background-color: #333;
+  color: #fff;
+}
+
+tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
+
+.return-button-container {
+  display: flex;
+  justify-content: center;
+  margin: 20px 0;
+}
+
+.return-button {
+  display: inline-block;
+  padding: 10px 20px;
+  font-size: 20px;
+  cursor: pointer;
+  text-align: center;
+  text-decoration: none;
+  outline: none;
+  color: #fff;
+  background-color: #4CAF50;
+  border: none;
+  border-radius: 15px;
+  box-shadow: 0 9px #999;
+}
+
+.return-button:hover {
+  background-color: #3e8e41;
+}
+
+.return-button:active {
+  background-color: #3e8e41;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+}
+
+/* "Return to Top" button styling */
+
+.return-top-button-container {
+  display: none;
+  justify-content: center;
+  position: fixed;
+  bottom: 50px;
+  right: 30px;
+  z-index: 1;
+}
+
+.return-top-button {
+  display: inline-block;
+  padding: 10px 20px;
+  font-size: 20px;
+  cursor: pointer;
+  text-align: center;
+  text-decoration: none;
+  outline: none;
+  color: #fff;
+  background-color: #4CAF50;
+  border: none;
+  border-radius: 15px;
+  box-shadow: 0 9px #999;
+}
+
+.return-top-button:hover {
+  background-color: #3e8e41;
+}
+
+.return-top-button:active {
+  background-color: #3e8e41;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+}
